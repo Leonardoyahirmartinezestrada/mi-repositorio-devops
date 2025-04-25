@@ -1,0 +1,6 @@
+Iniciano Respaldo...
+tar: Removing leading `C:/' from member names
+tar: C\:/Users/Leo_1/OneDrive/Documentos/carpeta prueba act2: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+Completed 45 Bytes/45 Bytes (49 Bytes/s) with 1 file(s) remainingupload: .\backup_20250413.tar.gz to s3://actividad2-leo/backup_20250413.tar.gz
+Respaldo subido exitosamnte:

@@ -1,0 +1,1574 @@
+Log: Log file open, 09/09/2021 19:14:32
+Log: GPsyonixBuildID 210831.56968.342135
+Log: Command line: -AUTH_LOGIN=unused -AUTH_PASSWORD=b2887cda4a45446ca7e205bb9f849a73 -AUTH_TYPE=exchangecode -epicapp=Sugar -epicenv=Prod -EpicPortal  -epicusername="Leonstricker1025" -epicuserid=67b208ee739d48ebac6769537d068457 -epiclocale=en -epicsandboxid=9773aa1aa54f4f7b80e44bef04986cea
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log:  ... running in INSTALLED mode
+Init: Language extension: INT
+Init: Language extension: INT
+DevConfig: GConfig::LoadFile associated file:  ..\..\TAGame\Config\TAUI.ini
+Init: Version: 210831.56968.342135
+Init: Compiled (64-bit): Aug 31 2021 16:20:17
+Init: Command line: -AUTH_LOGIN=unused -AUTH_PASSWORD=b2887cda4a45446ca7e205bb9f849a73 -AUTH_TYPE=exchangecode -epicapp=Sugar -epicenv=Prod -EpicPortal  -epicusername="Leonstricker1025" -epicuserid=67b208ee739d48ebac6769537d068457 -epiclocale=en -epicsandboxid=9773aa1aa54f4f7b80e44bef04986cea
+Init: Base directory: C:\Program Files\Epic Games\rocketleague\Binaries\Win64\
+[0000.59] Log: Purging 3-day cache '..\..\TAGame\Logs'...
+[0000.60] Init: Computer: DESKTOP-QVBDJSN
+[0000.60] Init: User: Leo1
+[0000.60] Init: CPU Page size=4096, Processors=12
+[0000.60] Init: High frequency timer resolution =10.000000 MHz
+[0000.60] Init: Memory total: Physical=15.8GB (16GB approx) Pagefile=18.1GB Virtual=131072.0GB
+[0000.60] Init: Presizing for 135000 objects not considered by GC, pre-allocating 0 bytes.
+[0000.60] Init: Object subsystem initialized
+[0000.78] Log: Using feature set PrimeUpdate35
+[0000.85] DevOnline: EOS Platform CacheDirectory=C:\Users\Leo_1\AppData\Local\Rocket League\
+[0000.93] DevOnline: EOSSDK-LogEOSOverlay: Overlay loaded and initialized
+[0001.11] Log: Found D3D11 adapter 0: NVIDIA GeForce GTX 1650 Ti with Max-Q Design
+[0001.11] Log: Adapter has 3964MB of dedicated video memory, 0MB of dedicated system memory, and 8071MB of shared system memory
+[0001.15] Log: Found D3D11 adapter 1: Intel(R) UHD Graphics
+[0001.15] Log: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8071MB of shared system memory
+[0001.16] Log: Found D3D11 adapter 2: Microsoft Basic Render Driver
+[0001.16] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8071MB of shared system memory
+[0001.17] Log: Shader platform (RHI): PC-D3D-SM5
+[0009.72] Log: ProductDatabase_TA::UpdateAvailableProducts  0.17 sec total.
+[0010.23] Log: 131676 objects as part of root set at end of initial load.
+[0010.23] Log: 0 out of 0 bytes used by permanent object pool.
+[0010.23] Log: Initializing Engine...
+[0010.23] Log: BuildID: 528447734 from GPsyonixBuildID
+[0010.43] SystemSettings: Loading PC Settings
+[0010.47] Log: Running hardware survey...
+[0010.47] Log: Wwise(R) SDK Version 2019.1.1 Build 6977. Copyright (c) 2006-2012 Audiokinetic Inc. / All Rights Reserved.
+[0010.97] Log: OS: Microsoft Windows 10 Home  (19042)
+[0010.97] Log: WinSAT: 6.7 [9.2 CPU, 6.7 2D, 9.9 3D, 9.2 Mem, 9.0 Disk]
+[0010.97] Log: Processor: Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz (Intel64 Family 6 Model 165 Stepping 2) 6 Cores, 12 Threads
+[0010.97] Log: Memory: 8.00GB
+[0010.97] Log: Memory: 8.00GB
+[0010.97] Log: VideoController: NVIDIA GeForce GTX 1650 Ti with Max-Q Design (27.21.14.5749)
+[0010.97] Log: VideoController: Intel(R) UHD Graphics (27.20.100.8783)
+[0010.97] Log: Network Adapter: Intel(R) Wi-Fi 6 AX201 160MHz
+[0011.80] Log: Disk C: 836.95GB free of 952.62GB
+[0011.80] Log: Sound Device: Intel® Smart Sound Technology (Intel® SST)
+[0011.80] Log: Sound Device: Realtek High Definition Audio(SST)
+[0011.80] Log: Sound Device: NVIDIA Virtual Audio Device (Wave Extensible) (WDM)
+[0011.80] Log: Sound Device: Intel(R) Display Audio
+[0011.80] Log: Hardware survey complete in 0.61 seconds.
+[0011.80] Log: Detected 1 GPUs for rendering
+[0012.27] DevOnline: EOSSDK-LogEOSOverlay: Window subclass attached to 0000000000140488
+[0012.27] DevOnline: EOSSDK-LogEOSOverlay: Creating overlay widget manager
+[0012.32] DevOnline: EOSSDK-LogEOSOverlay: Launching render process
+[0012.38] DevOnline: EOSSDK-LogEOSOverlay: Overlay ready. Firing 1 OnReady handlers
+[0012.40] DevOnline: Created named interface (RecentPlayersList) of type (Engine.OnlineRecentPlayersList)
+[0012.40] ScriptLog: PsyNet using environment DBE_Production Prod
+[0012.40] PsyNet: PsyNetConnection_X_0 disabled OSCS_ServiceUnavailable
+[0012.40] PsyNetStaticData: HandleCacheExpired
+[0012.40] PsyNetStaticData: HandleGetURL URL=https://config.psynet.gg/v2/Config/BattleCars/528447734/Prod/Epic/INT/
+[0012.40] DevOnline: WebRequest_X_0 SEND: https://config.psynet.gg/v2/Config/BattleCars/528447734/Prod/Epic/INT/ 
+[0014.47] DevOnline: WebRequest_X_0 RECV: 200 
+[0014.48] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9jb25maWcucHN5bmV0LmdnL3YyL0NvbmZpZy9CYXR0bGVDYXJzLzUyODQ0NzczNC9Qcm9kL0VwaWMvSU5ULw==) wrote 183077 bytes to memory
+[0014.48] PsyNetStaticData: HandleDataChanged
+[0014.49] Log: FJsonStructReader - attempting to overwrite object property 'Class' for struct PresetMutators_X.
+[0014.49] Log: FJsonStructReader - attempting to overwrite object property 'Class' for struct PresetMutators_X.
+[0014.49] Log: FJsonStructReader - attempting to overwrite object property 'Class' for struct PresetMutators_X.
+[0014.49] Log: FJsonStructReader - attempting to overwrite object property 'Class' for struct PresetMutators_X.
+[0014.49] Log: FJsonStructReader - attempting to overwrite object property 'Class' for struct PresetMutators_X.
+[0014.49] Log: FJsonStructReader - attempting to overwrite object property 'Class' for struct PresetMutators_X.
+[0014.49] Log: FJsonStructReader - attempting to overwrite object property 'Class' for struct PresetMutators_X.
+[0014.49] Log: FJsonStructReader - attempting to overwrite object property 'Class' for struct PresetMutators_X.
+[0014.49] Log: FJsonStructReader - attempting to overwrite object property 'Class' for struct PresetMutators_X.
+[0014.68] Log: ProductDatabase_TA::UpdateAvailableProducts  0.17 sec total.
+[0014.68] PsyNet: PsyNetConnection_X_0 enabled
+[0014.69] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=True
+[0014.71] Auth: OnlinePlayerAuthentication_TA_0 None Unknown|0|0 SetAuthLoginError [Error Type=OSCS_NotConnected Code=-1 Message=]
+[0014.71] Auth: OnlinePlayerAuthentication_TA_0 None Unknown|0|0 Logout
+[0014.71] PsyNet: PsyNetConnection_X_1 disabled OSCS_NotConnected
+[0014.71] Auth: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 HandleConnectionChanged
+[0014.71] Auth: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 UpdateLoginState
+[0014.71] Auth: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 SetAuthLoginError [Error Type=OSCS_NotConnected Code=-1 Message=]
+[0014.71] Auth: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 Logout
+[0014.71] Auth: OnlinePlayerAuthentication_TA_0 LoggedOut Unknown|0|0 UpdateLoginState AuthLoginError=[Error Type=OSCS_NotConnected Code=-1 Message=]
+[0014.71] SaveGame: Load Player.ControllerId=0 SaveFileName=..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save
+[0014.71] Error: Error, FSaveDataImportTask: '..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save' no files found
+[0014.73] DevNet: Browse: MENU_Main_p
+[0014.73] Log: LoadMap: MENU_Main_p
+[0014.73] Exit: XAudio2 Device shut down.
+[0014.76] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0014.80] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0014.80] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0014.96] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0015.05] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0015.08] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0015.08] Log: Bringing World MENU_Main_p.TheWorld up for play (0) at 2021.09.09-19.14.47
+[0015.09] Log: Bringing up level for play took: 0.023398
+[0015.36] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0015.49] Log: ########### Finished loading level: 0.760552 seconds
+[0015.49] Log: Flushing async loaders.
+[0015.95] Log: Flushed async loaders.
+[0015.95] Log: Initializing Engine Completed
+[0015.95] Log: >>>>>>>>>>>>>> Initial startup: 15.95s <<<<<<<<<<<<<<<
+[0015.97] DevOnline: EOSSDK-LogEOSOverlay: Tick thread starting...
+[0015.97] DevOnline: EOSSDK-LogEOS: Large tick time detected 15.0289
+[0015.97] DevOnline: EOSSDK-LogEOS: Updating Platform SDK Config, Time: 15.028897
+[0015.97] DevOnline: WebRequest_X_1 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/rl_nfl_fanpass_eventscreen_2.png 
+[0015.97] SaveGame: HandleDataLoaded Result.Code=BasicLoadResult_FileNotFound
+[0015.97] ScriptLog: NetworkSave_TA_0 ApplySettings ReplicationRate=60 NetSpeed=15000 InputRate=60
+[0015.97] SaveVersion: SaveDataVersions_TA::Update SaveDataVersion_KeyConversion -> SaveDataVersion_KeyConversion
+[0015.97] SaveVersion: VersionHelper_TA::Update Transient.SaveData_TA_1:MusicPlayerSave_TA_0.__MusicPlayerSave_TA__GetVersionDelegates_7D1D5B26441FE2BDAC10A084040F4B59 VersionObject=MusicPlayerSave_TA_0 CurrentVersion=0
+[0015.97] SaveVersion: VersionHelper_TA::Update Transient.SaveData_TA_1:SeasonSave_TA_0.__SeasonSave_TA__GetVersionDelegates_32366F1C42DC614BAFE2DA813764E210 VersionObject=SeasonSave_TA_0 CurrentVersion=0
+[0015.97] SaveVersion: VersionHelper_TA::Update Transient.SaveData_TA_1:ProductsFavoriteSave_TA_0.__ProductsFavoriteSave_TA__GetVersionDelegates_6BCE6CAB4807118D0B7A3FADB4DC7AB2 VersionObject=ProductsFavoriteSave_TA_0 CurrentVersion=0
+[0016.12] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0016.13] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0016.13] SaveGame: LocalPlayer_TA_0 HandleSaveDataLoaded 
+[0016.13] SaveVersion: ProfileVersions_TA::Update ProfileVersion_CarColors2 -> ProfileVersion_CarColors2
+[0016.13] SaveVersion: VersionHelper_TA::Update Transient.SaveData_TA_1:Profile_TA_0.ProfileQuickChatSave_TA_0.__ProfileQuickChatSave_TA__GetVersionDelegates_572219714FD4CD49E4D7639C99FFA46B VersionObject=ProfileQuickChatSave_TA_0 CurrentVersion=0
+[0016.15] SaveVersion: VersionHelper_TA::Update Transient.SaveData_TA_1:Profile_TA_0.ProductsArchiveSave_TA_0.__ProductsArchiveSave_TA__GetVersionDelegates_2185D32E4D343ED656C79496B8A3B212 VersionObject=ProductsArchiveSave_TA_0 CurrentVersion=0
+[0016.15] DevOnline: WebRequest_X_2 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Unknown|0|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0016.19] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0016.22] Log: Flushing async loaders.
+[0016.74] Log: Flushed async loaders.
+[0016.97] NetworkNext: Client disabled
+[0017.72] DevOnline: EOSSDK-LogEOS: SDK Config Platform Update Request Successful, Time: 16.750576
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Start Session (User: ...)
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: SDKOverlayComponent.Init <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.OverlayLoaded <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.ObserveBrowserStatus <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterKeyListener <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.OverlayInitialized <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.LaunchRenderProcess <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterJSBindings <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.SwapChainCreated <Redacted>
+[0017.72] DevOnline: EOSSDK-LogEOS: Updating Product SDK Config, Time: 16.777109
+[0017.72] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterJSBindings <Redacted>
+[0018.69] DevOnline: EOSSDK-LogEOSConnect: ConnectClientAuthTask Success
+[0019.08] DevOnline: WebRequest_X_2 RECV: 204 
+[0019.08] Log: WebRequest_X_2 type: HTTPError, message: 
+[0019.16] DevOnline: EOSSDK-LogEOS: SDK Config Product Update Request Successful, Time: 18.183052
+[0019.16] DevOnline: EOSSDK-LogEOS: SDK Config Data - Watermark: -866034492
+[0019.16] DevOnline: EOSSDK-LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18.183052, Update Interval: 301.047394
+[0019.34] DevOnline: WebRequest_X_1 RECV: 200 
+[0019.36] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU3BlY2lhbEV2ZW50L0ltYWdlcy9ybF9uZmxfZmFucGFzc19ldmVudHNjcmVlbl8yLnBuZw==) wrote 1580559 bytes to memory
+[0019.44] DevOnline: EOSSDK-LogEOSAuth: UserAuth Success
+[0019.44] DevOnline: EOSSDK-LogEOSAuth: NewUserToken: User ClientId: xyz...p7B AccountId: 67b...457 Access[Expires: 2021.09.10-02.14.50 Remaining: 7200.88] Refresh[Expires: 2021-09-10T08:14:50.884Z Remaining: 28800.88] State: Valid
+[0019.48] DevOnline: EOSSDK-LogEOSAuth: GenerateUserAuth success
+[0019.69] DevOnline: EOSSDK-LogEOSAuth: login/queryuserinfo success
+[0019.69] DevOnline: EOSSDK-LogEOSUI: Social Overlay: 'leaderboards' feature disabled by overlay.
+[0019.69] DevOnline: EOSSDK-LogEOSAuth: Login Tasks Complete: 0
+[0019.97] DevOnline: EOSSDK-LogEOSMessaging: Attempting connection to Stomp. LocalUserId=[000...b25] Url=[<Redacted>]
+[0020.01] PsyNet: PsyNetConnection_X_1 enabled
+[0020.01] Auth: OnlinePlayerAuthentication_TA_0 LoggedOut Epic|67b208ee739d48ebac6769537d068457|0 HandleConnectionChanged
+[0020.01] Auth: OnlinePlayerAuthentication_TA_0 LoggedOut Epic|67b208ee739d48ebac6769537d068457|0 UpdateLoginState
+[0020.01] ScriptLog: OnlinePlayerAuthentication_TA_0 LoggedOut Epic|67b208ee739d48ebac6769537d068457|0 GotoAuthState RequestAuthCode
+[0020.01] Auth: OnlinePlayerAuthentication_TA_0 RequestAuthCode Epic|67b208ee739d48ebac6769537d068457|0 RequestAuthTicket Epic|67b208ee739d48ebac6769537d068457|0
+[0020.01] Auth: OnlinePlayerAuthentication_TA_0 RequestAuthCode Epic|67b208ee739d48ebac6769537d068457|0 HandleAuthTicket bSuccess=True
+[0020.01] Auth: OnlinePlayerAuthentication_TA_0 RequestAuthCode Epic|67b208ee739d48ebac6769537d068457|0 HandleAuthTicket bSuccess=True
+[0020.01] ScriptLog: OnlinePlayerAuthentication_TA_0 RequestAuthCode Epic|67b208ee739d48ebac6769537d068457|0 GotoAuthState SendLoginRequest
+[0020.01] Auth: OnlinePlayerAuthentication_TA_0 SendLoginRequest Epic|67b208ee739d48ebac6769537d068457|0 HandleLoginStatusChanged LS_LoggedIn Epic|67b208ee739d48ebac6769537d068457|0
+[0020.01] Party: HandleLocalPlayerLoginStatusChanged PlayerName=Leonstricker1025 PlayerID=Epic|67b208ee739d48ebac6769537d068457|0 LoginStatus=LS_LoggedIn IsPrimary=True IsInParty=False
+[0020.01] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_0 [Auth/AuthPlayer]
+[0020.01] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0020.01] PsyNet: HTTP send ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_0
+[0020.01] DevOnline: WebRequest_X_3 SEND: https://api.rlpp.psynet.gg/rpc/Auth/AuthPlayer/v2 
+[0020.25] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0020.76] DevOnline: EOSSDK-LogEOSUI: Social Overlay: Loading: <Redacted>
+[0020.76] DevOnline: EOSSDK-LogEOSUI: Social Overlay: Initital DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox(unset) }
+[0020.76] DevOnline: EOSSDK-LogEOSOverlay: Overlay loading <Redacted> in instance 2676713571984
+[0020.76] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.LoadURL <Redacted>
+[0020.79] DevOnline: EOSSDK-LogEOSOverlay: LoadURL result received. [Success=1, BrowserID=1]
+[0020.79] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.RenderProcess.LoadURL <Redacted>
+[0020.79] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.LoadURLResult <Redacted>
+[0020.79] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.RenderProcess.BrowserCreated <Redacted>
+[0020.79] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.RenderProcess.ConnectBrowserAndRenderProcesses <Redacted>
+[0020.81] DevOnline: EOSSDK-LogEOSOverlay: Browser status 0 received for browser 1
+[0020.81] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.BrowserStatus <Redacted>
+[0020.95] DevOnline: EOSSDK-LogEOSMessaging: Succesfully connected to Stomp. LocalUserId=[000...b25]
+[0021.10] DevOnline: EOSSDK-LogEOSPresence: Updating Presence to Online. LocalUserId=[67b...457] RichText=[Main Menu]
+[0021.12] DevOnline: EOSSDK-LogEOSMessaging: Stomp subscribed to topic /da32ae9c12ae40e8a112c52e1f17f3ba/account/0002eeec7beb430493eccd7f69cceb25
+[0021.25] DevOnline: WebRequest_X_3 RECV: 200 
+[0021.25] PsyNet: HTTP recv ID=PsyNetMessage_X_0 Message=PsyNetMessage_X_1
+[0021.25] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_0 Response=PsyNetMessage_X_1 Latency=1.2368 
+[0021.26] ScriptLog: OnlinePlayerAuthentication_TA_0 SendLoginRequest Epic|67b208ee739d48ebac6769537d068457|0 GotoAuthState LoggedIn
+[0021.26] Auth: OnlinePlayer_TA_0 OnlinePlayerAuthentication_TA_0 HandleAuthLoginChange Auth.bLoggedIn=True
+[0021.26] PsyNet: Enabling PerCon
+[0021.26] PsyNet: PsyNetConnection_X_1 SetAuthorized bAuthorized=True
+[0021.26] RankedReconnect: LocalPlayer_TA_0.CheckForRankedReconnect() bOpenedStartMenu=False IsMenuLevel=True bLoggedIn=True IsPrimaryPlayer=True RankedReconnectAvailable=False EpochTime=0 EpochNow=1631232892 TimeSince=1631232892 ReconnectTimeoutSeconds=900 Reservation=
+[0021.72] PsyNet: PsyNetMessengerWebSocket_X_0 Connected
+[0021.72] PsyNet: PsyNetConnection_X_1 UpdateConnectionState bConnected=True bFreshConnection=True
+[0021.72] DevOnline: PlayerDataStorage_QueryFileList: Beginning to query files. User=(67b208ee739d48ebac6769537d068457)
+[0021.72] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SetPsyNetConnection InPsyNetConnection=PsyNetConnection_X_1
+[0021.72] PsyNet: PsyNetConnection_X_1 UpdateConnectionState bPerConConnected=True
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_2 [Friends/GetFriendList]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_2 Message=PsyNetMessage_X_2
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_3 [Shops/GetPlayerWallet]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_3 Message=PsyNetMessage_X_3
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_4 [Clubs/GetClubInvites]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_4 Message=PsyNetMessage_X_4
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_5 [BlockList/GetBlockedList]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_5 Message=PsyNetMessage_X_5
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_6 [Tournaments/Status/GetScheduleRegion]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_6 Message=PsyNetMessage_X_6
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_7 [Tournaments/Status/GetCycleData]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_7 Message=PsyNetMessage_X_7
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_8 [Skills/GetPlayerSkill]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_8 Message=PsyNetMessage_X_8
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_9 [Clubs/GetPlayerClubDetails]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_9 Message=PsyNetMessage_X_9
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_10 [Challenges/GetActiveChallenges]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_10 Message=PsyNetMessage_X_10
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_11 [RocketPass/GetPlayerInfo]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_11 Message=PsyNetMessage_X_11
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_12 [RocketPass/GetRewardContent]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_12 Message=PsyNetMessage_X_12
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_13 [RocketPass/GetPlayerPrestigeRewards]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_13 Message=PsyNetMessage_X_13
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_14 [Players/GetBanStatus]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_14 Message=PsyNetMessage_X_14
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_15 [GameServer/GetGameServerPingList]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_15 Message=PsyNetMessage_X_15
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_16 [Party/GetPlayerPartyInfo]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_16 Message=PsyNetMessage_X_16
+[0021.74] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_17 [Products/GetPlayerProducts]
+[0021.74] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_17 Message=PsyNetMessage_X_17
+[0021.87] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_2 Response=PsyNetMessage_X_18 Latency=0.1306 
+[0021.89] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_3 Response=PsyNetMessage_X_19 Latency=0.1522 
+[0021.91] DevOnline: WebRequest_X_4 SEND: https://api.epicgames.dev/epic/friends/v1/67b208ee739d48ebac6769537d068457/outgoing 
+[0021.91] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=1 ID=PsyNetMessage_X_5 Response=PsyNetMessage_X_20 Latency=0.1740 
+[0021.93] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_4 Response=PsyNetMessage_X_21 Latency=0.1974 
+[0021.95] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_6 Response=PsyNetMessage_X_22 Latency=0.2176 
+[0021.98] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_7 Response=PsyNetMessage_X_23 Latency=0.2409 
+[0022.00] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_24 [Tournaments/Search/GetSchedule]
+[0022.00] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_24 Message=PsyNetMessage_X_24
+[0022.00] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_8 Response=PsyNetMessage_X_25 Latency=0.2630 
+[0022.02] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_9 Response=PsyNetMessage_X_26 Latency=0.2817 
+[0022.04] DevOnline: WebRequest_X_5 SEND: https://rl-cdn.psyonix.com/Playlists/Images/rl_nfl_gridiron2_ltm_playlist_bg.jpg 
+[0022.04] DevOnline: WebRequest_X_6 SEND: https://rl-cdn.psyonix.com/Playlists/Images/rl_ltm_gridiron_playlist_a.png 
+[0022.08] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_10 Response=PsyNetMessage_X_27 Latency=0.3485 
+[0022.11] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_11 Response=PsyNetMessage_X_28 Latency=0.3686 
+[0022.13] DevOnline: WebRequest_X_7 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Play.jpg 
+[0022.13] DevOnline: WebRequest_X_8 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Shot.jpg 
+[0022.13] DevOnline: WebRequest_X_9 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Save.jpg 
+[0022.13] DevOnline: WebRequest_X_10 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Center.jpg 
+[0022.13] DevOnline: WebRequest_X_11 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Win.jpg 
+[0022.13] DevOnline: WebRequest_X_12 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_AerialGoal.jpg 
+[0022.13] DevOnline: WebRequest_X_13 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_SAG.jpg 
+[0022.13] DevOnline: WebRequest_X_14 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Clear.jpg 
+[0022.13] DevOnline: WebRequest_X_15 SEND: https://rl-cdn.psyonix.com/ChallengeIcons/Challenge_Goal.jpg 
+[0022.14] DevOnline: WebRequest_X_16 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/NUX_Popup_Octane.png 
+[0022.14] DevOnline: WebRequest_X_17 SEND: https://iconurl.com/ 
+[0022.14] DevOnline: WebRequest_X_18 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/rl_nfl_fanpass_eventwidget.png 
+[0022.14] DevOnline: WebRequest_X_19 SEND: https://rl-cdn.psyonix.com/SpecialEvent/Images/rl_nfl_fanpass_eventdashboard.png 
+[0022.14] DevOnline: WebRequest_X_20 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/Season_imagery_Reward.png 
+[0022.15] DevOnline: WebRequest_X_21 SEND: https://rl-cdn.psyonix.com/ChallengeBanners/rl_s4_challenge_dashboard_1.png 
+[0022.15] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_12 Response=PsyNetMessage_X_29 Latency=0.3920 
+[0022.15] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_13 Response=PsyNetMessage_X_30 Latency=0.4121 
+[0022.17] DevOnline: PlayerDataStorage_QueryFileList: Finished querying files. User=(67b208ee739d48ebac6769537d068457) Success=(1)
+[0022.17] DevOnline: PlayerDataStorage_ReadFile: Beginning to download file. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0022.17] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_14 Response=PsyNetMessage_X_31 Latency=0.4355 
+[0022.19] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_15 Response=PsyNetMessage_X_32 Latency=0.4557 
+[0022.22] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_33 [Challenges/PlayerProgress]
+[0022.22] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_33 Message=PsyNetMessage_X_33
+[0022.22] ScriptLog: RegionPinger_X_0 PingRegions ("148.72.171.87:2767","92.204.191.223:2687","162.245.206.45:21903","45.43.38.34:2467","35.213.183.16:7887","103.194.166.117:13812","185.179.203.163:12673","109.200.215.81:10606","185.179.201.79:10352","185.50.106.169:17762","65.2.78.127:8263")
+[0022.22] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_16 Response=PsyNetMessage_X_34 Latency=0.4791 
+[0022.23] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_35 [Population/UpdatePlayerPlaylist]
+[0022.23] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_35 Message=PsyNetMessage_X_35
+[0022.24] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_17 Response=PsyNetMessage_X_36 Latency=0.4993 
+[0022.27] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_24 Response=PsyNetMessage_X_37 Latency=0.2598 
+[0022.33] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.RenderProcess.JavascriptContextCreated <Redacted>
+[0022.35] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_33 Response=PsyNetMessage_X_38 Latency=0.1341 
+[0022.37] DevOnline: WebRequest_X_8 RECV: 304 
+[0022.37] DevOnline: WebRequest_X_10 RECV: 304 
+[0022.37] DevOnline: WebRequest_X_16 RECV: 304 
+[0022.39] DevOnline: WebRequest_X_7 RECV: 304 
+[0022.39] DevOnline: WebRequest_X_9 RECV: 304 
+[0022.39] DevOnline: WebRequest_X_12 RECV: 304 
+[0022.39] DevOnline: WebRequest_X_13 RECV: 304 
+[0022.39] DevOnline: WebRequest_X_14 RECV: 304 
+[0022.39] DevOnline: WebRequest_X_15 RECV: 304 
+[0022.39] DevOnline: WebRequest_X_20 RECV: 304 
+[0022.39] DevOnline: WebRequest_X_21 RECV: 304 
+[0022.40] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_35 Response=PsyNetMessage_X_39 Latency=0.1576 
+[0022.62] DevOnline: WebRequest_X_4 RECV: 200 
+[0022.69] DevOnline: WebRequest_X_11 RECV: 304 
+[0022.84] DevOnline: WebRequest_X_6 RECV: 200 
+[0022.84] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vUGxheWxpc3RzL0ltYWdlcy9ybF9sdG1fZ3JpZGlyb25fcGxheWxpc3RfYS5wbmc=) wrote 325507 bytes to memory
+[0022.95] DevOnline: WebRequest_X_18 RECV: 200 
+[0022.95] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU3BlY2lhbEV2ZW50L0ltYWdlcy9ybF9uZmxfZmFucGFzc19ldmVudHdpZGdldC5wbmc=) wrote 291187 bytes to memory
+[0023.04] DevOnline: WebRequest_X_5 RECV: 200 
+[0023.05] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vUGxheWxpc3RzL0ltYWdlcy9ybF9uZmxfZ3JpZGlyb24yX2x0bV9wbGF5bGlzdF9iZy5qcGc=) wrote 969478 bytes to memory
+[0023.19] DevOnline: EOSSDK-LogHttp: Payload is incomplete. Response still processing. 0000026F81EA3A20
+[0023.32] DevOnline: EOSSDK-LogHttp: Payload is incomplete. Response still processing. 0000026F81EA3A20
+[0023.49] DevOnline: PlayerDataStorage_ReadFile: File download complete. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData) Success=(1)
+[0023.49] EOSSync: HandleFileReadComplete LocalSaveTick: 0
+[0023.49] EOSSync: HandleFileReadComplete OnlineSaveTick: 4
+[0023.49] ScriptLog: NetworkSave_TA_1 ApplySettings ReplicationRate=60 NetSpeed=15000 InputRate=60
+[0023.52] Log: FSaveDataExportTask(0) wrote 50048 bytes to memory
+[0023.52] Log: SaveGameDataAsync game thread time: 1 ms
+[0023.52] ScriptLog: NewProductIds: 
+[0023.52] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0023.52] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save] Result:[1]
+[0023.52] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0023.53] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0023.53] ScriptWarning: ScriptWarning, Something went wrong uploading save data 67b208ee739d48ebac6769537d068457 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:0701
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8:__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupActivationCondition_7E82BEDC4AEB349C632317AA563CAEED:__CrumbTrails_TA__SetupActivationCondition_FE59A84F4E89B7028AB02CBEF04B3D6A
+	Function TAGame.CrumbTrails_TA:ActivateTrail
+	Function TAGame.CrumbTrailSave_TA:SetTrailActive
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[0023.53] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0023.53] ScriptWarning: ScriptWarning, Something went wrong uploading save data 67b208ee739d48ebac6769537d068457 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:0701
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8:__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupActivationCondition_7E82BEDC4AEB349C632317AA563CAEED:__CrumbTrails_TA__SetupActivationCondition_FE59A84F4E89B7028AB02CBEF04B3D6A
+	Function TAGame.CrumbTrails_TA:ActivateTrail
+	Function TAGame.CrumbTrailSave_TA:SetTrailActive
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[0023.53] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0023.53] ScriptWarning: ScriptWarning, Something went wrong uploading save data 67b208ee739d48ebac6769537d068457 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:0701
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8:__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupActivationCondition_7E82BEDC4AEB349C632317AA563CAEED:__CrumbTrails_TA__SetupActivationCondition_FE59A84F4E89B7028AB02CBEF04B3D6A
+	Function TAGame.CrumbTrails_TA:ActivateTrail
+	Function TAGame.CrumbTrailSave_TA:SetTrailActive
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[0023.53] ScriptLog: GetDLCProducts, UnlockedDLCList=
+[0023.53] DevOnline: WebRequest_X_19 RECV: 200 
+[0023.54] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vU3BlY2lhbEV2ZW50L0ltYWdlcy9ybF9uZmxfZmFucGFzc19ldmVudGRhc2hib2FyZC5wbmc=) wrote 771931 bytes to memory
+[0023.54] DevOnline: WebRequest_X_22 SEND: https://rl-cdn.psyonix.com/Legal/PC/EULA/INT.txt 
+[0023.54] DevOnline: WebRequest_X_23 SEND: https://rl-cdn.psyonix.com/Legal/PC/PrivacyPolicy/INT.txt 
+[0023.55] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_40 [Players/GetXP]
+[0023.55] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_40 Message=PsyNetMessage_X_40
+[0023.60] DevOnline: WebRequest_X_22 RECV: 304 
+[0023.65] DevOnline: WebRequest_X_23 RECV: 304 
+[0023.65] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_40 Response=PsyNetMessage_X_41 Latency=0.1263 
+[0023.72] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0023.76] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0024.11] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData) Success=(1)
+[0024.15] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.15] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.17] DevOnline: EOSSDK-LogEOSOverlay: Browser status 1 received for browser 1
+[0024.17] DevOnline: EOSSDK-LogEOSUI: Social Overlay: Initial setup of friends overlay: EOS_Success
+[0024.17] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.RenderProcess.FrameLoadEnd <Redacted>
+[0024.17] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.BrowserStatus <Redacted>
+[0024.20] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.20] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.20] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.20] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.20] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.20] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.20] Matchmaking: All Regions Pinged: USE (0.1305),EU (0.2220),USW (0.0856),ASC (0.2424),ASM (0.2659),JPN (0.1785),ME (0.3548),OCE (0.2356),SAF (0.3899),SAM (0.2621),IND (0.3523)
+[0024.20] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 1069 bytes to memory
+[0024.24] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0024.24] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0024.24] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0024.24] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: eos.social.overlayopentime <Redacted>
+[0024.24] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.24] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.24] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.24] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.24] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0024.24] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.24] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.28] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.28] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.30] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0024.33] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0024.33] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0024.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0024.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.41] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0024.41] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0024.41] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0024.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: eos.social.appstartup <Redacted>
+[0024.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: eos.social.heartbeat <Redacted>
+[0024.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0024.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0024.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0024.44] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0024.47] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0024.47] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0024.47] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0024.49] Log: FSaveDataExportTask(0) wrote 60368 bytes to memory
+[0024.49] Log: SaveGameDataAsync game thread time: 1 ms
+[0024.50] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_1.save] Result:[1]
+[0024.62] DevOnline: EOSSDK-LogEOSOverlay: Received new texture handle. [InstanceId=2676713571984, BrowserId=1, TabId=0, Previous=0000000000000000, New=0000000080006902]
+[0024.62] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.InitialTextureReceived <Redacted>
+[0025.01] DevOnline: WebRequest_X_17 RECV: 0 
+[0025.01] Log: WebRequest_X_17 type: HTTPError, message: 
+[0025.10] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0025.10] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0026.43] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0026.43] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0026.48] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: eos.social.settingschanged <Redacted>
+[0026.48] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0026.48] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0026.50] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0026.50] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0026.53] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0026.53] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0029.57] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0029.57] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0029.62] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0029.62] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0029.62] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0029.62] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0029.62] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0029.62] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0029.65] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0029.67] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0029.67] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0029.67] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0070.24] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_46 [Metrics/RecordMetrics]
+[0070.24] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_46 Message=PsyNetMessage_X_46
+[0070.47] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_46 Response=PsyNetMessage_X_47 Latency=0.2211 
+[0076.57] DevOnline: WebRequest_X_24 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0077.57] DevOnline: WebRequest_X_24 RECV: 204 
+[0077.57] Log: WebRequest_X_24 type: HTTPError, message: 
+[0077.70] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0077.70] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0078.70] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0078.70] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0079.42] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0079.44] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0079.65] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0080.22] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0080.53] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0080.53] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0081.08] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0081.28] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0081.91] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0082.17] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0082.17] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0082.17] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0082.17] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0082.17] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0136.69] DevOnline: WebRequest_X_25 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0136.90] DevOnline: WebRequest_X_25 RECV: 204 
+[0136.90] Log: WebRequest_X_25 type: HTTPError, message: 
+[0139.63] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0139.95] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0174.66] FTE: Starting Group:Prime_InitialStartup at Checkpoint:NUX_IntroScene
+[0174.66] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_InitialStartup is active
+[0174.70] DevOnline: EOSSDK-LogEOSPresence: Updating Presence to Online. LocalUserId=[67b...457] RichText=[Main Menu]
+[0175.24] Log: Flushing async loaders.
+[0175.51] Log: Flushed async loaders.
+[0175.64] Log: Flushing async loaders.
+[0175.94] Log: Flushed async loaders.
+[0176.11] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_58 [Ads/GetAds]
+[0176.11] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_58 Message=PsyNetMessage_X_58
+[0176.41] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_58 Response=PsyNetMessage_X_59 Latency=0.3022 
+[0176.51] DevOnline: WebRequest_X_26 SEND: https://rl-cdn.psyonix.com/Ads/Prod/102.ouleO5NX/201.jpg 
+[0177.50] DevOnline: WebRequest_X_26 RECV: 200 
+[0177.50] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vQWRzL1Byb2QvMTAyLm91bGVPNU5YLzIwMS5qcGc=) wrote 111740 bytes to memory
+[0177.83] DevOnline: WebRequest_X_27 SEND: https://rl-cdn.psyonix.com/Ads/Prod/102.ouleO5NX/202.jpg 
+[0178.09] DevOnline: WebRequest_X_27 RECV: 200 
+[0178.09] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vQWRzL1Byb2QvMTAyLm91bGVPNU5YLzIwMi5qcGc=) wrote 111740 bytes to memory
+[0178.31] DevOnline: WebRequest_X_28 SEND: https://rl-cdn.psyonix.com/Ads/Prod/102.ouleO5NX/403.jpg 
+[0178.53] DevOnline: WebRequest_X_28 RECV: 200 
+[0178.53] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vQWRzL1Byb2QvMTAyLm91bGVPNU5YLzQwMy5qcGc=) wrote 49173 bytes to memory
+[0178.79] DevOnline: WebRequest_X_29 SEND: https://rl-cdn.psyonix.com/Ads/Prod/102.ouleO5NX/404.jpg 
+[0178.98] DevOnline: WebRequest_X_29 RECV: 200 
+[0178.98] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vQWRzL1Byb2QvMTAyLm91bGVPNU5YLzQwNC5qcGc=) wrote 49173 bytes to memory
+[0191.99] Warning: Skipping instancing group - an Actor may only be connected to one Group! [SkeletalMeshActorMAT_Products_TA_29]
+[0196.89] DevOnline: WebRequest_X_30 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0197.20] DevOnline: WebRequest_X_30 RECV: 204 
+[0197.20] Log: WebRequest_X_30 type: HTTPError, message: 
+[0199.95] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0200.18] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0234.98] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0236.90] FTE: CompleteCheckpoint GroupName=Prime_InitialStartup CheckpointName=NUX_IntroScene
+[0236.90] FTE: CompleteActiveGroup GroupName:Prime_InitialStartup
+[0236.90] Log: FSaveDataExportTask(0) wrote 60657 bytes to memory
+[0236.90] Log: SaveGameDataAsync game thread time: 1 ms
+[0236.90] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_66 [Challenges/FTECheckpointComplete]
+[0236.90] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_66 Message=PsyNetMessage_X_66
+[0236.90] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_67 [Challenges/FTEGroupComplete]
+[0236.90] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_67 Message=PsyNetMessage_X_67
+[0236.90] FTEDev: Trying to start FTE Group Prime_InitialStartup which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=False bIgnoreCompletion=False
+[0236.90] Legacy: State Set
+[0236.90] FTE: Starting Group:Prime_FreeToPlayTutorial_1 at Checkpoint:NUX_AILevel
+[0236.90] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.90] FTEDev: Trying to start FTE Group Prime_FreeToPlayTutorial_1 while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.90] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save
+[0236.90] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_2.save] Result:[1]
+[0236.96] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.96] FTEDev: Trying to start FTE Group Prime_InitialStartup while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.96] FTEDev: Trying to start FTE Group Prime_FreeToPlayTutorial_1 while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.96] FTEDev: Trying to start FTE Group Prime_MatchComplete while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.96] FTEDev: Trying to start FTE Group Prime_LegacyUpdate while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.96] FTEDev: Trying to start FTE Group Prime_MatchComplete while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.96] FTEDev: Trying to start FTE Group Prime_LegacyUpdate while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.96] FTEDev: Trying to start FTE Group Prime_MatchComplete while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.96] FTEDev: Trying to start FTE Group Prime_LegacyUpdate while another Group Prime_FreeToPlayTutorial_1 is active
+[0236.96] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0237.00] RankedReconnect: LocalPlayer_TA_0.CheckForRankedReconnect() bOpenedStartMenu=True IsMenuLevel=True bLoggedIn=True IsPrimaryPlayer=True RankedReconnectAvailable=False EpochTime=0 EpochNow=1631233108 TimeSince=1631233108 ReconnectTimeoutSeconds=900 Reservation=
+[0237.00] MTX: ConditionalClaimEntitlements bAllowEntitlements=True bClaimingEntitlements=False bEntitlementsDirty=True PsyNetConnected=True SplitscreenID=0 bMtxCodeExpired=False
+[0237.00] MTX: HandleMtxCode bSuccess=True
+[0237.01] DevNet: Browse: eurostadium_p?Game=TAGame.GameInfo_FTE_TA?Tutorial_Prime_Part1?PlayTest?GameTags=BotsIntro,PlayerCount6
+[0237.01] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0237.04] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0237.08] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0237.10] Log: Flushing async loaders.
+[0237.11] Log: Flushed async loaders.
+[0237.11] Log: LoadMap: eurostadium_p?Game=TAGame.GameInfo_FTE_TA?Tutorial_Prime_Part1?PlayTest?GameTags=BotsIntro,PlayerCount6
+[0237.12] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0237.12] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_68 [Microtransaction/ClaimEntitlements]
+[0237.12] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_68 Message=PsyNetMessage_X_68
+[0237.12] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_69 [Shops/GetStandardShops]
+[0237.12] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_69 Message=PsyNetMessage_X_69
+[0237.12] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_70 [Metrics/RecordMetrics]
+[0237.12] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_70 Message=PsyNetMessage_X_70
+[0237.12] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_66 Response=PsyNetMessage_X_71 Latency=0.0639 
+[0237.22] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_67 Response=PsyNetMessage_X_72 Latency=0.0639 
+[0237.25] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=1 ID=PsyNetMessage_X_69 Response=PsyNetMessage_X_73 Latency=0.0000 
+[0237.32] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=1 ID=PsyNetMessage_X_70 Response=PsyNetMessage_X_74 Latency=0.0000 
+[0237.39] DevOnline: PsyNet Flush End
+[0237.64] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_FTE_SF.upk
+[0237.78] Log: Fully load package: ..\..\TAGame\CookedPCConsole\gfxsounds_xp_SF.upk
+[0237.79] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0237.83] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0237.92] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0237.94] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0237.95] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0237.96] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_HudMatchInfo_SF.upk
+[0237.98] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0238.05] Log: Game class is 'GameInfo_FTE_TA'
+[0238.08] Log: Bringing World EuroStadium_P.TheWorld up for play (0) at 2021.09.09-19.18.30
+[0238.09] MatchBroadcast: Init bBroadcastMatch=False MatchLog=None
+[0238.09] ScriptLog: MatchTypeClass=MatchType_FTE_TA
+[0238.43] Log: Bringing up level for play took: 0.387175
+[0238.74] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0238.87] Log: ########### Finished loading level: 1.762580 seconds
+[0238.87] Log: Flushing async loaders.
+[0238.90] Log: Flushed async loaders.
+[0238.90] DevOnline: EOSSDK-LogEOSPresence: Updating Presence to Online. LocalUserId=[67b...457] RichText=[In Training]
+[0238.91] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_75 [Ads/GetAds]
+[0238.91] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_75 Message=PsyNetMessage_X_75
+[0238.91] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_68 Response=PsyNetMessage_X_76 Latency=1.9352 
+[0238.93] MTX: HandleClaimSuccess Products=0
+[0238.95] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_77 [Shops/GetPlayerWallet]
+[0238.95] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_77 Message=PsyNetMessage_X_77
+[0238.97] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0239.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_78 [Population/UpdatePlayerPlaylist]
+[0239.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_78 Message=PsyNetMessage_X_78
+[0239.20] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_75 Response=PsyNetMessage_X_79 Latency=0.2985 
+[0239.22] Log: Flushing async loaders.
+[0239.22] Log: Flushed async loaders.
+[0239.30] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_77 Response=PsyNetMessage_X_80 Latency=0.3456 
+[0239.36] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_78 Response=PsyNetMessage_X_81 Latency=0.1600 
+[0240.69] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData) Success=(1)
+[0246.74] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0247.07] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0247.07] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0247.07] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0247.07] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0247.11] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0247.11] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0247.11] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0247.11] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0247.11] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0247.11] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0247.15] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0247.19] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0247.19] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0247.19] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0252.31] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0252.31] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0252.35] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0252.35] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0252.35] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0252.35] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0252.35] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0252.35] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0252.39] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0252.39] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0252.42] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0252.42] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0254.82] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0255.52] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0255.52] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0255.52] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0255.52] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0255.55] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0255.55] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0255.55] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0255.55] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0255.55] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0255.55] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0255.58] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0255.62] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0255.62] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0255.62] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0258.42] DevOnline: WebRequest_X_31 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0258.74] DevOnline: WebRequest_X_31 RECV: 204 
+[0258.74] Log: WebRequest_X_31 type: HTTPError, message: 
+[0260.16] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0260.51] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0260.73] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0260.73] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0260.77] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0260.77] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0260.77] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0260.77] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0260.77] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0260.77] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0260.84] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0260.84] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0260.87] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0260.87] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0296.97] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_86 [Metrics/RecordMetrics]
+[0296.97] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_86 Message=PsyNetMessage_X_86
+[0297.21] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_86 Response=PsyNetMessage_X_87 Latency=0.2483 
+[0299.20] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0300.68] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0306.77] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0318.39] DevOnline: WebRequest_X_32 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0318.59] DevOnline: WebRequest_X_32 RECV: 204 
+[0318.59] Log: WebRequest_X_32 type: HTTPError, message: 
+[0320.24] DevOnline: EOSSDK-LogEOS: Updating Product SDK Config, Time: 319.297729
+[0320.48] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0320.52] DevOnline: EOSSDK-LogEOS: SDK Config Product Update Request Completed - No Change
+[0320.52] DevOnline: EOSSDK-LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 319.537262, Update Interval: 300.415649
+[0320.72] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0324.93] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0324.93] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0325.00] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: eos.social.heartbeat <Redacted>
+[0325.00] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0325.00] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0325.03] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0325.03] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0325.06] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0325.06] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0346.05] PsyNetStaticData: HandleCacheExpired
+[0346.08] DevOnline: WebRequest_X_33 SEND: https://config.psynet.gg/v2/Config/BattleCars/528447734/Prod/Epic/INT/ 
+[0346.49] DevOnline: WebRequest_X_33 RECV: 304 
+[0371.98] EndGameDebug: HandleBallHitWorld: Ball_TA_1 1.0000
+[0378.43] DevOnline: WebRequest_X_34 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0378.72] DevOnline: WebRequest_X_34 RECV: 204 
+[0378.72] Log: WebRequest_X_34 type: HTTPError, message: 
+[0380.48] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0380.69] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0381.00] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0383.68] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0384.10] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0384.10] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0384.10] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0384.10] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0384.13] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0384.13] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0384.13] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0384.13] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0384.13] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0384.13] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0384.16] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0384.16] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0384.23] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0384.23] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0387.33] SpawnPoint: SpawnPointsPodium.SetSpawnPoints() SpawnTeams.Length=1
+[0387.33] SpawnPoint: TeamA.SetupPoints() MaxSpots=4
+[0387.33] SpawnPoint: TeamA.SetupPoints() i=0 SpawnPoints[i]=TraceableSpawnPoint_TA_0
+[0387.33] SpawnPoint: TeamA.SetupPoints() i=1 SpawnPoints[i]=TraceableSpawnPoint_TA_1
+[0387.33] SpawnPoint: TeamA.SetupPoints() i=2 SpawnPoints[i]=TraceableSpawnPoint_TA_2
+[0387.33] SpawnPoint: TeamA.SetupPoints() i=3 SpawnPoints[i]=TraceableSpawnPoint_TA_3
+[0387.34] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0387.34] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0387.75] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0388.29] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0388.32] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0388.32] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0388.32] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0388.35] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0388.35] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0388.35] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0388.35] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0388.35] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0388.37] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0388.37] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0388.37] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0388.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0388.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0388.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0388.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0388.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0388.41] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0388.41] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0388.44] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0388.44] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0389.30] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0389.30] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0389.37] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0389.37] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0389.37] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0389.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0389.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0389.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0389.40] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0389.40] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0389.44] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0389.44] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0390.34] SpawnPoint: TeamA.GetSpawnOrientation() SpotPRI.Length=4 SpawnPoints.Length=4
+[0390.34] SpawnPoint: TeamA.GetSpawnOrientation() i=0 SpawnPoints[i]=TraceableSpawnPoint_TA_0
+[0390.34] SpawnPoint: TeamA.GetSpawnOrientation() SpotPRI.Length=4 SpawnPoints.Length=4
+[0390.34] SpawnPoint: TeamA.GetSpawnOrientation() i=1 SpawnPoints[i]=TraceableSpawnPoint_TA_1
+[0390.34] SpawnPoint: TeamA.GetSpawnOrientation() SpotPRI.Length=4 SpawnPoints.Length=4
+[0390.34] SpawnPoint: TeamA.GetSpawnOrientation() i=2 SpawnPoints[i]=TraceableSpawnPoint_TA_2
+[0390.34] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0390.35] Log: FUniqueNetId::FromString - could not parse 'Bot_Squall'
+[0390.35] Log: FUniqueNetId::FromString - could not parse 'Bot_Squall'
+[0390.35] Log: FUniqueNetId::FromString - could not parse 'Bot_Sticks'
+[0390.35] Log: FUniqueNetId::FromString - could not parse 'Bot_Sticks'
+[0393.59] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0393.59] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0393.65] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0393.65] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0393.65] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0393.65] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0393.65] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0393.65] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0393.68] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0393.68] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0393.75] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0393.75] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0394.51] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0394.51] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0394.56] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0394.56] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0394.56] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0394.56] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0394.56] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0394.56] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0394.60] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0394.60] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0394.65] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0394.65] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0395.37] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0395.38] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0395.39] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0395.42] Online: TryToPlayOnline ControllerID=-1
+[0395.43] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=False
+[0395.43] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=False
+[0396.40] Log: FSaveDataExportTask(0) wrote 61303 bytes to memory
+[0396.40] Log: SaveGameDataAsync game thread time: 1 ms
+[0396.42] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_1.save
+[0396.42] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save] Result:[1]
+[0396.44] DevGFxUIWarning: Sprite::AddDisplayObject(): unknown cid = 0
+[0396.45] FTE: CompleteCheckpoint GroupName=Prime_FreeToPlayTutorial_1 CheckpointName=NUX_AILevel
+[0396.45] FTE: CompleteActiveGroup GroupName:Prime_FreeToPlayTutorial_1
+[0396.47] DevOnline: WebRequest_X_35 SEND: https://rl-cdn.psyonix.com/Blog/Images/rl_nfl_fanpass_newspanel.jpg 
+[0396.47] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_96 [Population/GetPopulation]
+[0396.47] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_96 Message=PsyNetMessage_X_96
+[0396.47] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_97 [Challenges/FTECheckpointComplete]
+[0396.47] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_97 Message=PsyNetMessage_X_97
+[0396.47] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_98 [Challenges/FTEGroupComplete]
+[0396.47] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_98 Message=PsyNetMessage_X_98
+[0396.58] Log: FSaveDataExportTask(0) wrote 61175 bytes to memory
+[0396.58] Log: SaveGameDataAsync game thread time: 1 ms
+[0396.61] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_2.save
+[0396.61] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_1.save] Result:[1]
+[0396.66] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_96 Response=PsyNetMessage_X_99 Latency=0.1864 
+[0396.69] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_97 Response=PsyNetMessage_X_100 Latency=0.2238 
+[0396.73] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_98 Response=PsyNetMessage_X_101 Latency=0.2571 
+[0397.14] DevOnline: WebRequest_X_35 RECV: 200 
+[0397.15] Log: FCacheExportTask(..\..\TAGame\Cache\WebCache/aHR0cHM6Ly9ybC1jZG4ucHN5b25peC5jb20vQmxvZy9JbWFnZXMvcmxfbmZsX2ZhbnBhc3NfbmV3c3BhbmVsLmpwZw==) wrote 689526 bytes to memory
+[0398.80] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0398.80] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0398.84] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0398.84] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0398.84] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0398.84] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0398.84] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0398.84] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0398.87] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0398.87] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0398.90] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0398.90] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0399.28] FTE: Starting Group:Prime_MatchComplete at Checkpoint:NUX_MatchCompleteIntro
+[0399.28] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0399.28] DevNet: Browse: MENU_Main_p?closed
+[0399.28] Log: Failed; returning to Entry
+[0399.28] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0399.31] Log: FSaveDataExportTask(0) wrote 61534 bytes to memory
+[0399.31] Log: SaveGameDataAsync game thread time: 1 ms
+[0399.31] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0399.32] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save
+[0399.32] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_2.save] Result:[1]
+[0399.33] Log: LoadMap: MENU_Main_p?closed
+[0399.35] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0399.35] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_102 [Metrics/RecordMetrics]
+[0399.35] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_102 Message=PsyNetMessage_X_102
+[0399.62] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_102 Response=PsyNetMessage_X_103 Latency=0.0000 
+[0399.62] DevOnline: PsyNet Flush End
+[0399.70] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0399.70] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0399.71] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0399.89] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0399.99] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0400.01] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0400.01] Log: Bringing World MENU_Main_p.TheWorld up for play (0) at 2021.09.09-19.21.12
+[0400.01] Log: Bringing up level for play took: 0.027259
+[0400.15] Log: ########### Finished loading level: 0.821626 seconds
+[0400.15] Log: Flushing async loaders.
+[0400.65] Log: Flushed async loaders.
+[0400.65] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0400.65] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0400.65] DevOnline: EOSSDK-LogEOSPresence: Updating Presence to Online. LocalUserId=[67b...457] RichText=[Main Menu]
+[0400.76] Log: Flushing async loaders.
+[0401.26] Log: Flushed async loaders.
+[0401.49] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0401.49] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0401.49] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0401.49] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0401.49] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0401.49] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0401.49] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_104 [Population/UpdatePlayerPlaylist]
+[0401.49] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_104 Message=PsyNetMessage_X_104
+[0401.49] FTEDev: Trying to start FTE Group Prime_MatchComplete while another Group Prime_MatchComplete is active
+[0401.49] FTEDev: Trying to start FTE Group Prime_LegacyUpdate while another Group Prime_MatchComplete is active
+[0401.49] FTEDev: Trying to start FTE Group Prime_MatchComplete while another Group Prime_MatchComplete is active
+[0401.49] FTEDev: Trying to start FTE Group Prime_LegacyUpdate while another Group Prime_MatchComplete is active
+[0401.49] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0402.02] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0402.02] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0402.05] FTE: CompleteCheckpoint GroupName=Prime_MatchComplete CheckpointName=NUX_MatchCompleteIntro
+[0402.05] FTE: CompleteActiveGroup GroupName:Prime_MatchComplete
+[0402.09] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0402.09] ScriptWarning: ScriptWarning, Something went wrong uploading save data 67b208ee739d48ebac6769537d068457 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:0701
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8:__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupActivationCondition_7E82BEDC4AEB349C632317AA563CAEED:__CrumbTrails_TA__SetupActivationCondition_FE59A84F4E89B7028AB02CBEF04B3D6A
+	Function TAGame.CrumbTrails_TA:ActivateTrail
+	Function TAGame.CrumbTrailSave_TA:SetTrailActive
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[0402.09] Log: FSaveDataExportTask(0) wrote 61437 bytes to memory
+[0402.09] Log: SaveGameDataAsync game thread time: 1 ms
+[0402.09] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0402.09] ScriptWarning: ScriptWarning, Something went wrong uploading save data 67b208ee739d48ebac6769537d068457 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:0701
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8:__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupActivationCondition_7E82BEDC4AEB349C632317AA563CAEED:__CrumbTrails_TA__SetupActivationCondition_FE59A84F4E89B7028AB02CBEF04B3D6A
+	Function TAGame.CrumbTrails_TA:ActivateTrail
+	Function TAGame.CrumbTrailSave_TA:SetTrailActive
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[0402.09] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0402.09] ScriptWarning: ScriptWarning, Something went wrong uploading save data 67b208ee739d48ebac6769537d068457 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:0701
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8:__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupActivationCondition_7E82BEDC4AEB349C632317AA563CAEED:__CrumbTrails_TA__SetupActivationCondition_FE59A84F4E89B7028AB02CBEF04B3D6A
+	Function TAGame.CrumbTrails_TA:ActivateTrail
+	Function TAGame.CrumbTrailSave_TA:SetTrailActive
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[0402.09] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0402.09] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0402.09] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_105 [Shops/GetStandardShops]
+[0402.09] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_105 Message=PsyNetMessage_X_105
+[0402.09] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_106 [Challenges/FTECheckpointComplete]
+[0402.09] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_106 Message=PsyNetMessage_X_106
+[0402.09] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_107 [Challenges/FTEGroupComplete]
+[0402.09] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_107 Message=PsyNetMessage_X_107
+[0402.09] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_108 [Products/GetContainerDropTable]
+[0402.09] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_108 Message=PsyNetMessage_X_108
+[0402.09] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_109 [Tournaments/Status/GetTournamentSubscriptions]
+[0402.09] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_109 Message=PsyNetMessage_X_109
+[0402.23] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_1.save
+[0402.23] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save] Result:[1]
+[0402.35] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_104 Response=PsyNetMessage_X_110 Latency=0.8619 
+[0402.60] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_105 Response=PsyNetMessage_X_111 Latency=0.5077 
+[0402.67] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_106 Response=PsyNetMessage_X_112 Latency=0.5438 
+[0402.81] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_113 [Shops/GetShopCatalogue]
+[0402.81] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_113 Message=PsyNetMessage_X_113
+[0402.81] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_114 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_114 Message=PsyNetMessage_X_114
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_115 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_115 Message=PsyNetMessage_X_115
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_116 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_116 Message=PsyNetMessage_X_116
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_117 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_117 Message=PsyNetMessage_X_117
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_118 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_118 Message=PsyNetMessage_X_118
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_119 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_119 Message=PsyNetMessage_X_119
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_120 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_120 Message=PsyNetMessage_X_120
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_121 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_121 Message=PsyNetMessage_X_121
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_122 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_122 Message=PsyNetMessage_X_122
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_123 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_123 Message=PsyNetMessage_X_123
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_124 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_124 Message=PsyNetMessage_X_124
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_125 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_125 Message=PsyNetMessage_X_125
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_126 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_126 Message=PsyNetMessage_X_126
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_127 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_127 Message=PsyNetMessage_X_127
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_128 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_128 Message=PsyNetMessage_X_128
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_129 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_129 Message=PsyNetMessage_X_129
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_130 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_130 Message=PsyNetMessage_X_130
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_131 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_131 Message=PsyNetMessage_X_131
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_132 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_132 Message=PsyNetMessage_X_132
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_133 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_133 Message=PsyNetMessage_X_133
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_134 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_134 Message=PsyNetMessage_X_134
+[0402.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_135 [Shops/GetShopCatalogue]
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_135 Message=PsyNetMessage_X_135
+[0402.82] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_107 Response=PsyNetMessage_X_136 Latency=0.7245 
+[0402.85] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_108 Response=PsyNetMessage_X_137 Latency=0.7608 
+[0403.13] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_109 Response=PsyNetMessage_X_138 Latency=1.0374 
+[0403.16] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_113 Response=PsyNetMessage_X_139 Latency=0.3496 
+[0403.36] Log: FSaveDataExportTask(0) wrote 61477 bytes to memory
+[0403.36] Log: SaveGameDataAsync game thread time: 1 ms
+[0403.36] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_114 Response=PsyNetMessage_X_140 Latency=0.5440 
+[0403.38] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_2.save
+[0403.38] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_1.save] Result:[1]
+[0403.40] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_115 Response=PsyNetMessage_X_141 Latency=0.5814 
+[0403.44] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_116 Response=PsyNetMessage_X_142 Latency=0.6259 
+[0403.48] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_117 Response=PsyNetMessage_X_143 Latency=0.6632 
+[0403.52] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_118 Response=PsyNetMessage_X_144 Latency=0.7048 
+[0403.57] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_119 Response=PsyNetMessage_X_145 Latency=0.7527 
+[0403.61] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_120 Response=PsyNetMessage_X_146 Latency=0.7993 
+[0403.66] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_121 Response=PsyNetMessage_X_147 Latency=0.8456 
+[0403.71] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_122 Response=PsyNetMessage_X_148 Latency=0.8935 
+[0403.76] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_123 Response=PsyNetMessage_X_149 Latency=0.9408 
+[0403.82] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_124 Response=PsyNetMessage_X_150 Latency=1.0100 
+[0403.88] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_125 Response=PsyNetMessage_X_151 Latency=1.0627 
+[0403.93] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_126 Response=PsyNetMessage_X_152 Latency=1.1162 
+[0403.98] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0403.98] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0403.98] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_127 Response=PsyNetMessage_X_153 Latency=1.1669 
+[0404.02] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_128 Response=PsyNetMessage_X_154 Latency=1.2045 
+[0404.06] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0404.06] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0404.06] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0404.06] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0404.06] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0404.06] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0404.06] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_129 Response=PsyNetMessage_X_155 Latency=1.2421 
+[0404.09] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0404.09] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0404.09] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_130 Response=PsyNetMessage_X_156 Latency=1.2796 
+[0404.13] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0404.13] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0404.13] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_131 Response=PsyNetMessage_X_157 Latency=1.3169 
+[0404.17] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_132 Response=PsyNetMessage_X_158 Latency=1.3542 
+[0404.21] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_133 Response=PsyNetMessage_X_159 Latency=1.3914 
+[0404.28] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_134 Response=PsyNetMessage_X_160 Latency=1.4658 
+[0404.32] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_135 Response=PsyNetMessage_X_161 Latency=1.5028 
+[0404.35] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData) Success=(1)
+[0404.36] DevOnline: WebRequest_X_36 SEND: https://rl-cdn.psyonix.com/Bundles/rl_insidious_orange_bundle_update_2.jpg 
+[0404.36] DevOnline: WebRequest_X_37 SEND: https://rl-cdn.psyonix.com/Bundles/rl_mantis_bundle_update.jpg 
+[0404.46] DevOnline: WebRequest_X_36 RECV: 304 
+[0404.68] DevOnline: WebRequest_X_37 RECV: 304 
+[0409.11] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0435.29] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0435.32] Log: FSaveDataExportTask(0) wrote 61477 bytes to memory
+[0435.32] Log: SaveGameDataAsync game thread time: 5 ms
+[0435.33] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save
+[0435.33] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_2.save] Result:[1]
+[0436.62] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData) Success=(1)
+[0439.95] DevOnline: WebRequest_X_38 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0440.12] DevOnline: WebRequest_X_38 RECV: 204 
+[0440.12] Log: WebRequest_X_38 type: HTTPError, message: 
+[0440.99] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0441.22] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0443.70] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0461.50] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_166 [Metrics/RecordMetrics]
+[0461.50] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_166 Message=PsyNetMessage_X_166
+[0461.67] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_166 Response=PsyNetMessage_X_167 Latency=0.1667 
+[0462.03] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0464.33] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0500.07] DevOnline: WebRequest_X_39 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0500.27] DevOnline: WebRequest_X_39 RECV: 204 
+[0500.27] Log: WebRequest_X_39 type: HTTPError, message: 
+[0501.21] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0501.47] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0505.55] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0522.75] Online: TryToPlayOnline ControllerID=-1
+[0522.78] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=False
+[0522.78] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=False
+[0524.17] Online: TryToPlayOnline ControllerID=-1
+[0524.20] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=False
+[0524.20] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=False
+[0524.20] Prime24121: StartSearch.PreferredRegions.Length 0
+[0524.20] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> PingRegions
+[0524.21] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0524.21] Log: FSaveDataExportTask(0) wrote 61463 bytes to memory
+[0524.21] Log: SaveGameDataAsync game thread time: 1 ms
+[0524.21] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0524.21] ScriptWarning: ScriptWarning, Something went wrong uploading save data 67b208ee739d48ebac6769537d068457 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:0701
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8:__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupCompletionCondition_4BE2426341D2C1634DE9F5B4BAAEECA7:__CrumbTrails_TA__SetupCompletionCondition_4BE2426341D2C1634DE9F5B4BAAEECA7
+	Function TAGame.CrumbTrails_TA:HandleTrailComplete
+	Function TAGame.CrumbTrailSave_TA:CompleteTrail
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[0524.21] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0524.21] ScriptWarning: ScriptWarning, Something went wrong uploading save data 67b208ee739d48ebac6769537d068457 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:0701
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8:__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupCompletionCondition_4BE2426341D2C1634DE9F5B4BAAEECA7:__CrumbTrails_TA__SetupCompletionCondition_4BE2426341D2C1634DE9F5B4BAAEECA7
+	Function TAGame.CrumbTrails_TA:HandleTrailComplete
+	Function TAGame.CrumbTrailSave_TA:CompleteTrail
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[0524.21] DevOnline: PlayerDataStorage_WriteFile: File transfer is already in progress. Aborting write for User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0524.21] ScriptWarning: ScriptWarning, Something went wrong uploading save data 67b208ee739d48ebac6769537d068457 RLSaveData
+	EOSOnlineStorageUploader_TA Transient.SaveData_TA_1:EOSOnlineStorageUploader_TA_0
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData:0701
+Script call stack:
+	Function TAGame.__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8:__StatusTriggerManager_TA__RegisterTriggers_C03F1FB1481E4D25C67F92B33ACEBAF8
+	Function TAGame.StatusTriggerManager_TA:CheckModifiedCondition
+	Function TAGame.__CrumbTrails_TA__SetupCompletionCondition_4BE2426341D2C1634DE9F5B4BAAEECA7:__CrumbTrails_TA__SetupCompletionCondition_4BE2426341D2C1634DE9F5B4BAAEECA7
+	Function TAGame.CrumbTrails_TA:HandleTrailComplete
+	Function TAGame.CrumbTrailSave_TA:CompleteTrail
+	Function TAGame.SaveObject_TA:SetDirty
+	Function TAGame.SaveData_TA:HandleSaveObjectDirty
+	Function TAGame.SaveData_TA:SetOnlineDirty
+	Function TAGame.EOSOnlineStorageUploader_TA:UploadSaveData
+
+[0524.21] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_174 [GameServer/GetGameServerPingList]
+[0524.21] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_174 Message=PsyNetMessage_X_174
+[0524.23] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_1.save
+[0524.23] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save] Result:[1]
+[0524.38] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_174 Response=PsyNetMessage_X_175 Latency=0.1762 
+[0524.41] ScriptLog: RegionPinger_X_1 PingRegions ("209.191.164.164:2647","74.201.228.142:2187","34.85.29.145:3367","188.122.77.155:10301","109.200.213.169:10989","43.239.136.103:17065","172.107.207.150:2207","103.23.210.172:2427","65.2.78.127:8497","185.179.203.203:10400","185.179.201.70:29467")
+[0525.18] Log: FSaveDataExportTask(0) wrote 61463 bytes to memory
+[0525.18] Log: SaveGameDataAsync game thread time: 2 ms
+[0525.22] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_2.save
+[0525.22] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_1.save] Result:[1]
+[0525.72] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData) Success=(1)
+[0525.98] Matchmaking: All Regions Pinged: USW (0.1000),USE (0.1000),JPN (0.2000),EU (0.2000),OCE (0.2667),ASC (0.2333),SAM (0.2667),ASM (0.2333),IND (0.3333),ME (0.3667),SAF (0.4000)
+[0525.98] Log: FCacheExportTask(..\..\TAGame\Cache\RegionCache.cache) wrote 1069 bytes to memory
+[0525.98] Matchmaking: OnlineGameMatchmaking_X_0 PingRegions -> Searching
+[0525.98] Prime24121: AddRecommendedServers.PreferredRegions.Length 1
+[0525.98] Prime24121: HandleRegionsPinged.PreferredRegions.Length 1
+[0525.98] Matchmaking: StartMatchmaking at 2021-09-10 00:23:17 in USW for playlists 3 on game server 0
+[0525.98] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_176 [Matchmaking/StartMatchmaking]
+[0525.98] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_176 Message=PsyNetMessage_X_176
+[0526.15] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_176 Response=PsyNetMessage_X_177 Latency=0.1666 
+[0526.45] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_178 [Population/UpdatePlayerPlaylist]
+[0526.45] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_178 Message=PsyNetMessage_X_178
+[0526.58] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_178 Response=PsyNetMessage_X_179 Latency=0.1334 
+[0530.68] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ReserveConnection ReservationID=EC494A6FAFBA4E529358FAE1CBC70F02 ConnectionID=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJsSWp3SjBtZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NjdiMjA4ZWU3MzlkNDhlYmFjNjc2OTUzN2QwNjg0NTd8MCIsInNlcnZlcl9uYW1lIjoiVVNXNDEyLVJhdGNoZXQ2IiwiaWF0IjoxNjMxMjMzNDAxLCJuYmYiOjE2MzEyMzM0MDEsImV4cCI6MTYzMTI0NzgwMX0.lRkvceJtCnrIYTYPm4mGBEFMUWlDnLR4iiiQxOWiAab40nua1rkFTIEgrcalNT3xdxcW42m8fQHjalWNGBZSEg
+[0530.68] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=ClientReservationMessage_X Message.ReservationID=EC494A6FAFBA4E529358FAE1CBC70F02
+[0530.68] CheckReservation: Received game server from notification (v3) Message.Reservation=(ServerName="USW412-Ratchet6",Playlist=3,Region="USW",ReservationID="EC494A6FAFBA4E529358FAE1CBC70F02",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJsSWp3SjBtZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NjdiMjA4ZWU3MzlkNDhlYmFjNjc2OTUzN2QwNjg0NTd8MCIsInNlcnZlcl9uYW1lIjoiVVNXNDEyLVJhdGNoZXQ2IiwiaWF0IjoxNjMxMjMzNDAxLCJuYmYiOjE2MzEyMzM0MDEsImV4cCI6MTYzMTI0NzgwMX0.lRkvceJtCnrIYTYPm4mGBEFMUWlDnLR4iiiQxOWiAab40nua1rkFTIEgrcalNT3xdxcW42m8fQHjalWNGBZSEg",JoinName="O4UCK1LP8J7RX5CC",JoinPassword="X9WDGXD0VW3M7WDM")
+[0530.68] JoinGame: StartJoin Reservation=(ServerName="USW412-Ratchet6",Playlist=3,Region="USW",ReservationID="EC494A6FAFBA4E529358FAE1CBC70F02",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJsSWp3SjBtZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NjdiMjA4ZWU3MzlkNDhlYmFjNjc2OTUzN2QwNjg0NTd8MCIsInNlcnZlcl9uYW1lIjoiVVNXNDEyLVJhdGNoZXQ2IiwiaWF0IjoxNjMxMjMzNDAxLCJuYmYiOjE2MzEyMzM0MDEsImV4cCI6MTYzMTI0NzgwMX0.lRkvceJtCnrIYTYPm4mGBEFMUWlDnLR4iiiQxOWiAab40nua1rkFTIEgrcalNT3xdxcW42m8fQHjalWNGBZSEg",JoinName="O4UCK1LP8J7RX5CC",JoinPassword="X9WDGXD0VW3M7WDM") JoinSettings=(PlaylistId=3)
+[0530.68] JoinGame: GotoJoinGameState OnlineGameJoinGame_TA -> VerifyPrivileges
+[0530.68] Online: TryToPlayOnline ControllerID=-1
+[0530.68] Matchmaking: OnlineGameMatchmaking_X_0 Searching -> Joining
+[0530.72] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=False
+[0530.72] JoinGame: GotoJoinGameState VerifyPrivileges -> GenerateKeys
+[0530.72] JoinGame: GotoJoinGameState GenerateKeys -> ReservingServerForMatchmaking
+[0530.72] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=AddReservationMessagePublic_X_0
+[0530.72] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0530.72] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_181 [Matchmaking/PlayerCancelMatchmaking]
+[0530.72] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_181 Message=PsyNetMessage_X_181
+[0530.72] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_182 [DSR/RelayToServer]
+[0530.72] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_182 Message=PsyNetMessage_X_182
+[0530.85] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_181 Response=PsyNetMessage_X_183 Latency=0.1333 
+[0530.92] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_182 Response=PsyNetMessage_X_184 Latency=0.2000 
+[0531.05] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=ReservationsReadyMessage_X Message.ReservationID=EC494A6FAFBA4E529358FAE1CBC70F02
+[0531.05] DevNet: Add Network Encryption {PlayerID=Epic|67b208ee739d48ebac6769537d068457|0 Key={Key=D7E29FE152EE0EBA74D51B6C43584179C0CD7ED61AD7507D1CE6400CB9553656 IV=C42464AC6D4E7E7797200DF2A363ABD2 HMAC=DA19A25BBE945174CDBE7CEE4A45F6D5347A72275044179486D1F31A40732E0F Session=6677D9C4991FE14D94E73698C2F0143B}}
+[0531.05] NetworkNext: JoinServer bUseNetworkNextDriver=False
+[0531.05] Party: HandleServerReserved (Reservation=(ServerName="USW412-Ratchet6",Playlist=3,Region="USW",ReservationID="EC494A6FAFBA4E529358FAE1CBC70F02",DSRToken="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJsSWp3SjBtZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NjdiMjA4ZWU3MzlkNDhlYmFjNjc2OTUzN2QwNjg0NTd8MCIsInNlcnZlcl9uYW1lIjoiVVNXNDEyLVJhdGNoZXQ2IiwiaWF0IjoxNjMxMjMzNDAxLCJuYmYiOjE2MzEyMzM0MDEsImV4cCI6MTYzMTI0NzgwMX0.lRkvceJtCnrIYTYPm4mGBEFMUWlDnLR4iiiQxOWiAab40nua1rkFTIEgrcalNT3xdxcW42m8fQHjalWNGBZSEg",JoinName="O4UCK1LP8J7RX5CC",JoinPassword="X9WDGXD0VW3M7WDM"),BeaconURL="35.215.105.49:7767",PingURL="35.215.105.49:7767",GameURL="35.215.105.49:7766",JoinCredentials="O4UCK1LP8J7RX5CC:X9WDGXD0VW3M7WDM")
+[0531.05] JoinGame: GotoJoinGameState ReservingServerForMatchmaking -> JoinCountdown
+[0531.05] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 SendMessageToServer Message=PingMessage_X_0
+[0531.08] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0531.08] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_186 [DSR/RelayToServer]
+[0531.08] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_186 Message=PsyNetMessage_X_186
+[0531.18] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_187 [Population/UpdatePlayerPlaylist]
+[0531.18] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_187 Message=PsyNetMessage_X_187
+[0531.32] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_186 Response=PsyNetMessage_X_188 Latency=0.2333 
+[0531.35] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_187 Response=PsyNetMessage_X_189 Latency=0.1666 
+[0531.38] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 ClientHandleMessage Message.MessageType=PingMessage_X Message.ReservationID=EC494A6FAFBA4E529358FAE1CBC70F02
+[0531.42] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=DSR/ClientMessage 
+[0534.06] JoinGame: GotoJoinGameState JoinCountdown -> OpeningLoadingScreen
+[0534.06] RankedReconnect: OnlineGameJoinGame_TA_0::OpeningLoadingScreen.BeginState()
+[0534.06] RankedReconnect: LocalPlayer_TA_0.UpdateRankedReconnect() Standard False 6 False
+[0534.06] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0534.07] DevNet: Browse: JoinGameTransition?game=TAGame.GameInfo_Transition_TA
+[0534.07] Log: Flushing async loaders.
+[0534.07] Log: Flushed async loaders.
+[0534.07] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0534.13] Log: FSaveDataExportTask(0) wrote 61463 bytes to memory
+[0534.13] Log: SaveGameDataAsync game thread time: 2 ms
+[0534.13] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save
+[0534.13] Log: LoadMap: JoinGameTransition?game=TAGame.GameInfo_Transition_TA
+[0534.15] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_2.save] Result:[1]
+[0534.15] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0534.15] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_191 [Metrics/RecordMetrics]
+[0534.15] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_191 Message=PsyNetMessage_X_191
+[0534.32] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_191 Response=PsyNetMessage_X_192 Latency=0.0000 
+[0534.36] DevOnline: PsyNet Flush End
+[0534.39] Log: No archetype specifies for game class GameInfo_Transition_TA, make sure it is added to the GameArchetypes list in DefaultEngine.ini
+[0534.39] Log: Game class is 'GameInfo_Transition_TA'
+[0534.45] Log: Bringing World JoinGameTransition.TheWorld up for play (0) at 2021.09.09-19.23.26
+[0534.45] Log: Bringing up level for play took: 0.059996
+[0534.45] JoinGame: GotoJoinGameState OpeningLoadingScreen -> JoiningNewServer
+[0534.45] DevNet: SetProgress, MessageType=1, Title=, Message=Connecting...
+[0534.45] Log: ########### Finished loading level: 0.323122 seconds
+[0534.45] DevNet: Browse: 35.215.105.49:7766/MENU_Main_p?Name=Leonstricker1025
+[0534.46] DevNet: Game client on port 7766, rate 15000
+[0534.46] NetComeGo: TcpipConnection_0 35.215.105.49:7766 using encryption {Key=D7E29FE152EE0EBA74D51B6C43584179C0CD7ED61AD7507D1CE6400CB9553656 IV=C42464AC6D4E7E7797200DF2A363ABD2 HMAC=DA19A25BBE945174CDBE7CEE4A45F6D5347A72275044179486D1F31A40732E0F Session=6677D9C4991FE14D94E73698C2F0143B}
+[0534.46] NetComeGo: SEND first packet Length=80 CRC=-786576172
+[0534.62] NetComeGo: TcpipConnection_0 RECV first packet IP=35.215.105.49:7766 Length=15 CRC=-558287144 HandshakeStatus=0 bUseSessionUID=1 InSessionUID=(0 0 0) SessionUID=(0 0 0)
+[0534.62] NetComeGo: Client set SessionUID to: 199 253 235
+[0534.92] DevNet: Failed to match package Core [4B9A354F44648688F83F7DA1C18546A8] in guid cache
+[0534.92] DevNet: Failed to match package Engine [687CAF9847D179F15EDA518773A46C63] in guid cache
+[0534.92] DevNet: Failed to match package GFxUI [069C626344B6D1762F3F5EAE1148A977] in guid cache
+[0534.92] DevNet: Failed to match package AkAudio [77227B7C4DF687C60DC383AE29C4DF22] in guid cache
+[0534.92] DevNet: Failed to match package ProjectX [6E9EFA54478CE5EAB9EB40B4608426F8] in guid cache
+[0534.92] DevNet: Failed to match package TAGame [1F2D19574A542F4AEE8FC3A9E4294AF5] in guid cache
+[0534.93] DevNet: Welcomed by server (Level: Stadium_Foggy_P, Game: TAGame.GameInfo_Soccar_TA, GameTags: )
+[0534.93] Log: FSaveDataExportTask(0) wrote 61463 bytes to memory
+[0534.93] Log: SaveGameDataAsync game thread time: 2 ms
+[0534.93] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_1.save
+[0534.93] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save] Result:[1]
+[0534.93] Log: Flushing async loaders.
+[0534.95] Log: Flushed async loaders.
+[0534.95] Log: LoadMap: 35.215.105.49:7766/Stadium_Foggy_P?Name=Leonstricker1025?game=TAGame.GameInfo_Soccar_TA
+[0534.97] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0534.97] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_193 [Metrics/RecordMetrics]
+[0534.97] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_193 Message=PsyNetMessage_X_193
+[0535.14] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_193 Response=PsyNetMessage_X_194 Latency=0.0000 
+[0535.17] DevOnline: PsyNet Flush End
+[0535.20] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_Soccar_SF.upk
+[0535.32] Log: Fully load package: ..\..\TAGame\CookedPCConsole\gfxsounds_xp_SF.upk
+[0535.32] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_XPProgressMenu_SF.upk
+[0535.35] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_EndGameMenu_SF.upk
+[0535.45] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_WinnerMenu_SF.upk
+[0535.47] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameScoreboard_SF.upk
+[0535.47] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MidGameMenu_SF.upk
+[0535.49] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFx_HudMatchInfo_SF.upk
+[0535.50] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_Hud_SF.upk
+[0535.91] Log: Octree Warning (AddPrimitive): StaticMeshActor_SMC_288 (Owner: Stadium_Foggy_P.TheWorld:PersistentLevel.MeshCollector4) Outside World.
+[0536.12] Log: Bringing World Stadium_Foggy_P.TheWorld up for play (0) at 2021.09.09-19.23.28
+[0536.12] Log: Bringing up level for play took: 0.217442
+[0536.39] JoinGame: OnJoinGameComplete bSuccess=True FailReason=
+[0536.39] JoinGame: GotoJoinGameState JoiningNewServer -> None
+[0536.39] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 Close
+[0536.39] PsyNetBeaconDetail_X: PsyNetBeacon_X_0 CloseConnection Connection.ConnectionID=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJsSWp3SjBtZSIsImlzcyI6IlBzeU5ldCIsInBsYXllcl9pZCI6IkVwaWN8NjdiMjA4ZWU3MzlkNDhlYmFjNjc2OTUzN2QwNjg0NTd8MCIsInNlcnZlcl9uYW1lIjoiVVNXNDEyLVJhdGNoZXQ2IiwiaWF0IjoxNjMxMjMzNDAxLCJuYmYiOjE2MzEyMzM0MDEsImV4cCI6MTYzMTI0NzgwMX0.lRkvceJtCnrIYTYPm4mGBEFMUWlDnLR4iiiQxOWiAab40nua1rkFTIEgrcalNT3xdxcW42m8fQHjalWNGBZSEg
+[0536.39] Matchmaking: OnlineGameMatchmaking_X_0 Joining -> None
+[0536.41] Log: ########### Finished loading level: 1.459938 seconds
+[0536.42] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0536.83] ScriptLog: Client InputRate=60
+[0536.83] DevNet: PlayerController_TA_2 setplayer LocalPlayer_TA_0
+[0536.83] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=False
+[0536.83] MatchBroadcast: Init bBroadcastMatch=False MatchLog=None
+[0536.84] ScriptLog: MatchGUID: 3757E11811EC11CD7EF411A48BFB2691
+[0536.84] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0536.96] DevOnline: EOSSDK-LogEOSPresence: Updating Presence to Online. LocalUserId=[67b...457] RichText=[Standard in DFH Stadium (Stormy)]
+[0536.96] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_195 [Clubs/GetClubDetails]
+[0536.96] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_195 Message=PsyNetMessage_X_195
+[0537.01] Log: Flushing async loaders.
+[0537.05] Log: Flushed async loaders.
+[0537.09] Spawn: ReplicatedRespawnTicket_TA_0 OnOwnerChanged PlayerController_TA_2
+[0537.10] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_196 [Clubs/GetClubDetails]
+[0537.10] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_196 Message=PsyNetMessage_X_196
+[0537.32] NetworkInputBuffer: Hitch detected! 185.7910ms
+[0537.33] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_195 Response=PsyNetMessage_X_197 Latency=0.4967 
+[0537.35] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_196 Response=PsyNetMessage_X_198 Latency=0.2524 
+[0537.55] NetworkInputBuffer: Hitch detected! 116.3330ms
+[0537.56] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_199 [Filters/FilterContent]
+[0537.56] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_199 Message=PsyNetMessage_X_199
+[0537.70] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_200 [Filters/FilterContent]
+[0537.70] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_200 Message=PsyNetMessage_X_200
+[0537.86] NetworkInputBuffer: Hitch detected! 158.3252ms
+[0537.86] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_199 Response=PsyNetMessage_X_201 Latency=0.3043 
+[0538.00] NetworkInputBuffer: Hitch detected! 138.9160ms
+[0538.00] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_200 Response=PsyNetMessage_X_202 Latency=0.2972 
+[0538.93] NetworkInputBuffer: Hitch detected! 104.0039ms
+[0540.07] Spawn: ReplicatedRespawnTicket_TA_0 Destroyed
+[0540.08] Log: Could not find a skeletal mesh component with socket or bone named 'chassis_jnt'
+[0542.09] ScriptWarning: ScriptWarning, Accessed None 'Asset'
+	ProductAttribute_Painted_TA Transient.ProductAttribute_Painted_TA_16
+	Function TAGame.ProductAttribute_Painted_TA:ApplyToObject:0093
+Script call stack:
+	Function TAGame.Ball_TA:ReplicatedEvent
+	Function TAGame.Ball_TA:Explode
+	Function TAGame.Ball_TA:InitExplosionFX
+	Function TAGame.ProductAttribute_TA:ApplyAttributes
+	Function TAGame.ProductAttribute_Painted_TA:ApplyToObject
+
+[0549.64] Log: Could not find a skeletal mesh component with socket or bone named 'chassis_jnt'
+[0556.18] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0557.36] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData) Success=(1)
+[0561.21] DevOnline: WebRequest_X_40 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0561.40] DevOnline: WebRequest_X_40 RECV: 204 
+[0561.40] Log: WebRequest_X_40 type: HTTPError, message: 
+[0561.48] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0561.73] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0585.71] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0597.35] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0617.82] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_209 [Metrics/RecordMetrics]
+[0617.82] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_209 Message=PsyNetMessage_X_209
+[0617.99] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_209 Response=PsyNetMessage_X_210 Latency=0.1849 
+[0621.21] DevOnline: WebRequest_X_41 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0621.38] DevOnline: WebRequest_X_41 RECV: 204 
+[0621.38] Log: WebRequest_X_41 type: HTTPError, message: 
+[0621.71] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0621.91] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0624.36] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0624.36] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0624.39] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: eos.social.heartbeat <Redacted>
+[0624.39] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0624.39] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0624.42] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0624.42] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0624.46] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0624.46] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0624.66] DevOnline: EOSSDK-LogEOS: Updating Product SDK Config, Time: 623.713257
+[0624.89] DevOnline: EOSSDK-LogEOS: SDK Config Product Update Request Completed - No Change
+[0624.89] DevOnline: EOSSDK-LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 623.913269, Update Interval: 323.489502
+[0681.21] DevOnline: WebRequest_X_42 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0681.38] DevOnline: WebRequest_X_42 RECV: 204 
+[0681.38] Log: WebRequest_X_42 type: HTTPError, message: 
+[0681.91] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0682.15] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0684.92] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0741.22] DevOnline: WebRequest_X_43 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0741.41] DevOnline: WebRequest_X_43 RECV: 204 
+[0741.41] Log: WebRequest_X_43 type: HTTPError, message: 
+[0742.13] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0742.38] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0780.39] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_227 [Metrics/RecordMetrics]
+[0780.39] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_227 Message=PsyNetMessage_X_227
+[0780.58] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_227 Response=PsyNetMessage_X_228 Latency=0.2000 
+[0798.64] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0799.46] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0799.46] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0799.49] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0799.49] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0799.52] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0799.52] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0799.52] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0799.52] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0799.52] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0799.52] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0799.56] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0799.56] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0799.62] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0799.62] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0801.25] DevOnline: WebRequest_X_44 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0801.41] DevOnline: WebRequest_X_44 RECV: 204 
+[0801.41] Log: WebRequest_X_44 type: HTTPError, message: 
+[0802.37] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0802.57] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0804.73] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0804.73] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0804.76] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0804.76] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0804.76] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0804.76] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0804.76] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0804.76] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0804.80] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0804.80] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0804.83] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0804.83] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0831.53] DevOnline: EOSSDK-LogEOSAchievements: Achievement Unlocked - To: 000...b25
+[0832.34] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_233 [Population/UpdatePlayerPlaylist]
+[0832.34] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_233 Message=PsyNetMessage_X_233
+[0832.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0832.37] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0832.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0832.41] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0832.44] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0832.44] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0832.44] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0832.44] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0832.44] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0832.44] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0832.48] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0832.48] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_233 Response=PsyNetMessage_X_234 Latency=0.1395 
+[0832.52] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0832.52] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0832.52] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0833.59] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0833.59] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0837.60] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0837.60] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0837.67] DevOnline: EOSSDK-LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
+[0837.67] DevOnline: EOSSDK-LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0837.67] DevOnline: EOSSDK-LogEOSUI: Social Overlay: New DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
+[0837.67] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0837.67] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
+[0837.67] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0837.70] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0837.70] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0837.73] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0837.73] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0841.44] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_235 [Metrics/RecordMetrics]
+[0841.44] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_235 Message=PsyNetMessage_X_235
+[0841.64] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_235 Response=PsyNetMessage_X_236 Latency=0.2000 
+[0858.68] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+[0861.21] DevOnline: WebRequest_X_45 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0861.41] DevOnline: WebRequest_X_45 RECV: 204 
+[0861.41] Log: WebRequest_X_45 type: HTTPError, message: 
+[0862.56] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0862.83] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0921.23] DevOnline: WebRequest_X_46 SEND: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?AppID=RocketLeague.Release&AppVersion=528447734&AppEnvironment=Prod&UploadType=eteventstream&UserID=|67b208ee739d48ebac6769537d068457|||Epic|67b208ee739d48ebac6769537d068457|0&SessionID=82A825924F6C7349BC10DCAF4A945D0A 
+[0921.44] DevOnline: WebRequest_X_46 RECV: 204 
+[0921.44] Log: WebRequest_X_46 type: HTTPError, message: 
+[0922.18] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0922.18] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_245 [Metrics/RecordMetrics]
+[0922.18] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_245 Message=PsyNetMessage_X_245
+[0922.18] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0922.40] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_245 Response=PsyNetMessage_X_246 Latency=0.2219 
+[0922.47] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Challenges/PlayerProgress 
+[0922.51] PsyNet: PsyNetServiceProvider_X_1 ExecuteService Complete, Service=Reward/RewardResult 
+[0922.82] DevOnline: EOSSDK-LogEOSAuth: Sending Verify Auth request. url=<Redacted>
+[0923.03] DevOnline: EOSSDK-LogEOSAuth: Verify Auth Success
+[0923.40] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_249 [Tournaments/Status/GetCycleData]
+[0923.40] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_249 Message=PsyNetMessage_X_249
+[0923.40] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_250 [Tournaments/Search/GetSchedule]
+[0923.40] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_250 Message=PsyNetMessage_X_250
+[0923.54] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_249 Response=PsyNetMessage_X_251 Latency=0.1430 
+[0923.61] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_250 Response=PsyNetMessage_X_252 Latency=0.2120 
+[0924.94] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0924.94] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0924.97] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: eos.social.heartbeat <Redacted>
+[0924.97] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+[0924.97] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+[0925.01] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0925.01] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0925.04] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+[0925.04] DevOnline: EOSSDK-LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+[0925.18] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0930.20] PsyNetStaticData: HandleCacheExpired
+[0930.20] PsyNetStaticData: UpdateCacheTimerEnabled CacheTimer.bEnabled=True
+[0930.20] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0930.21] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0930.22] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0930.26] Online: TryToPlayOnline ControllerID=-1
+[0930.26] Online: HandlePrivilegeCheckFinished PrivilegeCheck.bHasRestriction=False
+[0930.26] Online: HandlePrivilegeCheck PrivilegeCheck.bHasRestriction=False
+[0930.26] DevOnline: WebRequest_X_47 SEND: https://config.psynet.gg/v2/Config/BattleCars/528447734/Prod/Epic/INT/ 
+[0930.28] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0930.74] DevOnline: WebRequest_X_47 RECV: 304 
+[0930.93] Log: FSaveDataExportTask(0) wrote 65367 bytes to memory
+[0930.93] Log: SaveGameDataAsync game thread time: 1 ms
+[0930.95] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_2.save
+[0930.95] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_1.save] Result:[1]
+[0932.65] DevGFxUIWarning: Sprite::AddDisplayObject(): unknown cid = 0
+[0932.65] DevGFxUIWarning: Sprite::AddDisplayObject(): unknown cid = 0
+[0932.66] DevGFxUIWarning: Sprite::AddDisplayObject(): unknown cid = 0
+[0933.79] Log: Could not find a skeletal mesh component with socket or bone named 'chassis_jnt'
+[0934.54] Log: Flushing async loaders.
+[0934.54] Log: Flushed async loaders.
+[0934.56] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0934.66] NetworkInputBuffer: Hitch detected! 127.6855ms
+[0936.77] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0938.90] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData) Success=(1)
+[0939.71] RankedReconnect: RankedReconnectSave_TA_0.ClearRankedReconnect()
+[0939.71] NetComeGo: TcpipConnection_0 Control channel closed, reason=Disconnect command
+[0939.71] DevNet: URL: Adding default option Name=Leonstricker1025
+[0939.71] DevNet: Browse: MENU_Main_p?closed?Name=Leonstricker1025
+[0939.71] Log: Failed; returning to Entry
+[0939.71] Warning: Warning, Failed to load 'SwfMovie GFx_LoadingScreen.LoadingScreen': Failed to find object 'SwfMovie GFx_LoadingScreen.LoadingScreen'
+[0939.73] Log: FSaveDataExportTask(0) wrote 65367 bytes to memory
+[0939.73] Log: SaveGameDataAsync game thread time: 1 ms
+[0939.75] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save
+[0939.75] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_2.save] Result:[1]
+[0939.75] Log: LoadMap: MENU_Main_p?closed?Name=Leonstricker1025
+[0939.77] DevOnline: PsyNet Flush Start TimeoutSeconds=0.250000
+[0939.77] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_253 [Metrics/RecordMetrics]
+[0939.77] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_253 Message=PsyNetMessage_X_253
+[0939.95] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_253 Response=PsyNetMessage_X_254 Latency=0.0000 
+[0939.99] DevOnline: PsyNet Flush End
+[0940.02] NetComeGo: Close TcpipConnection_0 35.215.105.49:7766 09/09/2021 19:30:12 'UNetConnection::CleanUp'
+[0940.02] NetComeGo: TcpipConnection_0 Control channel null, Sending unstable close to 35.215.105.49:7766 on temporary Control channel.
+[0940.02] Exit: TcpNetDriver_0 shut down
+[0940.05] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GameInfo_GFxMenu_SF.upk
+[0940.06] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFxSounds_MainMenu_SF.upk
+[0940.06] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_StartMenu_SF.upk
+[0940.24] Log: Fully load package: ..\..\TAGame\CookedPCConsole\GFX_MainMenu_SF.upk
+[0940.34] Log: Game class is 'GameInfo_GFxMenu_TA'
+[0940.36] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0940.36] Log: Bringing World MENU_Main_p.TheWorld up for play (0) at 2021.09.09-19.30.12
+[0940.36] Log: Bringing up level for play took: 0.025852
+[0940.50] Log: ########### Finished loading level: 0.752767 seconds
+[0940.50] Log: Flushing async loaders.
+[0940.98] Log: Flushed async loaders.
+[0940.98] DevOnline: EOSSDK-LogEOSPresence: Updating Presence to Online. LocalUserId=[67b...457] RichText=[Main Menu]
+[0941.08] Log: Flushing async loaders.
+[0941.59] Log: Flushed async loaders.
+[0941.81] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_255 [Population/UpdatePlayerPlaylist]
+[0941.81] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_255 Message=PsyNetMessage_X_255
+[0941.81] FTEDev: Trying to start FTE Group Prime_MatchComplete which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=False bIgnoreCompletion=False
+[0941.81] FTEDev: Group Prime_LegacyUpdate Is not meant for users of type FTESave.LegacyGroupType=LGT_NewUser
+[0941.81] FTEDev: Trying to start FTE Group Prime_MatchComplete which is already completed and cannot be restarted CurrentActiveGroup.bCanBeDoneAgain=False bIgnoreCompletion=False
+[0941.81] FTEDev: Group Prime_LegacyUpdate Is not meant for users of type FTESave.LegacyGroupType=LGT_NewUser
+[0941.82] DevGFxUIWarning: Scale9Grid for resource=299 has negative width -2.050000
+[0942.43] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_256 [Shops/GetStandardShops]
+[0942.43] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_256 Message=PsyNetMessage_X_256
+[0942.43] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_257 [Products/GetContainerDropTable]
+[0942.43] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_257 Message=PsyNetMessage_X_257
+[0942.68] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_255 Response=PsyNetMessage_X_258 Latency=0.8736 
+[0942.96] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_256 Response=PsyNetMessage_X_259 Latency=0.5291 
+[0942.99] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_257 Response=PsyNetMessage_X_260 Latency=0.5625 
+[0943.19] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_261 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_261 Message=PsyNetMessage_X_261
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_262 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_262 Message=PsyNetMessage_X_262
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_263 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_263 Message=PsyNetMessage_X_263
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_264 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_264 Message=PsyNetMessage_X_264
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_265 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_265 Message=PsyNetMessage_X_265
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_266 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_266 Message=PsyNetMessage_X_266
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_267 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_267 Message=PsyNetMessage_X_267
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_268 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_268 Message=PsyNetMessage_X_268
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_269 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_269 Message=PsyNetMessage_X_269
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_270 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_270 Message=PsyNetMessage_X_270
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_271 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_271 Message=PsyNetMessage_X_271
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_272 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_272 Message=PsyNetMessage_X_272
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_273 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_273 Message=PsyNetMessage_X_273
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_274 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_274 Message=PsyNetMessage_X_274
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_275 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_275 Message=PsyNetMessage_X_275
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_276 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_276 Message=PsyNetMessage_X_276
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_277 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_277 Message=PsyNetMessage_X_277
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_278 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_278 Message=PsyNetMessage_X_278
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_279 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_279 Message=PsyNetMessage_X_279
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_280 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_280 Message=PsyNetMessage_X_280
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_281 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_281 Message=PsyNetMessage_X_281
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_282 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_282 Message=PsyNetMessage_X_282
+[0943.20] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_283 [Shops/GetShopCatalogue]
+[0943.20] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_283 Message=PsyNetMessage_X_283
+[0943.46] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_261 Response=PsyNetMessage_X_284 Latency=0.2671 
+[0943.50] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_262 Response=PsyNetMessage_X_285 Latency=0.3074 
+[0943.73] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_263 Response=PsyNetMessage_X_286 Latency=0.5377 
+[0943.77] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_264 Response=PsyNetMessage_X_287 Latency=0.5710 
+[0943.81] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_265 Response=PsyNetMessage_X_288 Latency=0.6129 
+[0943.84] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_266 Response=PsyNetMessage_X_289 Latency=0.6462 
+[0943.92] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_267 Response=PsyNetMessage_X_290 Latency=0.7271 
+[0943.97] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_268 Response=PsyNetMessage_X_291 Latency=0.7701 
+[0944.01] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_269 Response=PsyNetMessage_X_292 Latency=0.8146 
+[0944.05] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_270 Response=PsyNetMessage_X_293 Latency=0.8574 
+[0944.10] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_271 Response=PsyNetMessage_X_294 Latency=0.9006 
+[0944.14] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_272 Response=PsyNetMessage_X_295 Latency=0.9436 
+[0944.17] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_273 Response=PsyNetMessage_X_296 Latency=0.9769 
+[0944.21] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_274 Response=PsyNetMessage_X_297 Latency=1.0103 
+[0944.24] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_275 Response=PsyNetMessage_X_298 Latency=1.0436 
+[0944.27] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_276 Response=PsyNetMessage_X_299 Latency=1.0770 
+[0944.31] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_277 Response=PsyNetMessage_X_300 Latency=1.1131 
+[0944.35] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_278 Response=PsyNetMessage_X_301 Latency=1.1567 
+[0944.39] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_279 Response=PsyNetMessage_X_302 Latency=1.1998 
+[0944.43] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_280 Response=PsyNetMessage_X_303 Latency=1.2331 
+[0944.46] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_281 Response=PsyNetMessage_X_304 Latency=1.2664 
+[0944.49] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_282 Response=PsyNetMessage_X_305 Latency=1.2997 
+[0944.54] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_283 Response=PsyNetMessage_X_306 Latency=1.3427 
+[0947.27] Log: Closing by request
+[0947.27] Log: appRequestExit(0)
+[0947.36] DevOnline: PlayerDataStorage_WriteFile: Beginning to upload file. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData)
+[0949.75] DevOnline: PlayerDataStorage_WriteFile: File upload complete. User=(67b208ee739d48ebac6769537d068457) FileName=(RLSaveData) Success=(1)
+[0949.75] Matchmaking: OnlineGameMatchmaking_X_0 OnlineGameMatchmaking_X -> None
+[0949.75] Matchmaking: OnlineGameTourMatchmaking_TA_0 OnlineGameTourMatchmaking_TA -> None
+[0949.76] Log: FSaveDataExportTask(0) wrote 65367 bytes to memory
+[0949.76] Log: SaveGameDataAsync game thread time: 1 ms
+[0949.76] DevOnline: PsyNet Flush Start TimeoutSeconds=0.500000
+[0949.76] DevOnline: RPCQueue_X_1 SEND: PsyNetMessage_X_307 [Metrics/RecordMetrics]
+[0949.76] PsyNet: PsyNetRequestQue_X_1 SendRequest ID=PsyNetMessage_X_307 Message=PsyNetMessage_X_307
+[0949.96] Log: Deleting old save file ..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457_1.save
+[0949.96] Log: SaveDataExport(0): Finished - File:[..\..\TAGame\SaveDataEpic\DBE_Production\67b208ee739d48ebac6769537d068457.save] Result:[1]
+[0949.96] PsyNet: PsyNetRequestQue_X_1 SetRequestComplete RequestIdx=0 ID=PsyNetMessage_X_307 Response=PsyNetMessage_X_308 Latency=0.0000 
+[0949.99] DevOnline: PsyNet Flush End
+[0950.01] Exit: Preparing to exit.
+[0950.12] Exit: Game engine shut down
+[0950.68] DevOnline: EOSSDK-LogEOSOverlay: Detaching window subclass from 0000000000140488
+[0950.68] DevOnline: EOSSDK-LogEOSOverlay: Destroying overlay widget manager
+[0950.73] Exit: Windows client shut down
+[0950.98] Exit: AK Audio shut down.
+[0954.18] Exit: Object subsystem successfully closed.
+[0954.48] Exit: Exiting.
+[0954.48] Log: Log file closed, 09/09/2021 19:30:26
